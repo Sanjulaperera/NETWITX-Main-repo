@@ -37,8 +37,9 @@ export default function WebsiteTemplatesSection() {
       }
     }
 
-    scrollContainerRef.current?.addEventListener('scroll', handleScroll)
-    return () => scrollContainerRef.current?.removeEventListener('scroll', handleScroll)
+    const container = scrollContainerRef.current
+    container?.addEventListener('scroll', handleScroll)
+    return () => container?.removeEventListener('scroll', handleScroll)
   }, [])
 
   const scroll = (direction: 'left' | 'right') => {

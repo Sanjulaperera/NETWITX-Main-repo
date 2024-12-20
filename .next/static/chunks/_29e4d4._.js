@@ -1809,9 +1809,10 @@ function WebsiteTemplatesSection() {
                     }
                 }
             }["WebsiteTemplatesSection.useEffect.handleScroll"];
-            scrollContainerRef.current?.addEventListener('scroll', handleScroll);
+            const container = scrollContainerRef.current;
+            container?.addEventListener('scroll', handleScroll);
             return ({
-                "WebsiteTemplatesSection.useEffect": ()=>scrollContainerRef.current?.removeEventListener('scroll', handleScroll)
+                "WebsiteTemplatesSection.useEffect": ()=>container?.removeEventListener('scroll', handleScroll)
             })["WebsiteTemplatesSection.useEffect"];
         }
     }["WebsiteTemplatesSection.useEffect"], []);
@@ -1841,7 +1842,7 @@ function WebsiteTemplatesSection() {
                                     children: "Website Templates"
                                 }, void 0, false, {
                                     fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                                    lineNumber: 60,
+                                    lineNumber: 61,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1852,18 +1853,18 @@ function WebsiteTemplatesSection() {
                                         children: "Browse Templates"
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                                        lineNumber: 62,
+                                        lineNumber: 63,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 62,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                            lineNumber: 59,
+                            lineNumber: 60,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1874,20 +1875,20 @@ function WebsiteTemplatesSection() {
                                     className: "hidden sm:inline"
                                 }, void 0, false, {
                                     fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 69,
                                     columnNumber: 70
                                 }, this),
                                 " and tailored to any business type."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                            lineNumber: 67,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                    lineNumber: 58,
+                    lineNumber: 59,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1901,12 +1902,12 @@ function WebsiteTemplatesSection() {
                                 className: "w-6 h-6 text-gray-600"
                             }, void 0, false, {
                                 fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                                lineNumber: 78,
+                                lineNumber: 79,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                            lineNumber: 73,
+                            lineNumber: 74,
                             columnNumber: 13
                         }, this),
                         showRightArrow && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1917,12 +1918,12 @@ function WebsiteTemplatesSection() {
                                 className: "w-6 h-6 text-gray-600"
                             }, void 0, false, {
                                 fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                                lineNumber: 87,
+                                lineNumber: 88,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                            lineNumber: 82,
+                            lineNumber: 83,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1941,7 +1942,7 @@ function WebsiteTemplatesSection() {
                                                 className: "w-full h-48 object-cover"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                                                lineNumber: 97,
+                                                lineNumber: 98,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1951,45 +1952,45 @@ function WebsiteTemplatesSection() {
                                                     children: category.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                                                    lineNumber: 105,
+                                                    lineNumber: 106,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                                                lineNumber: 104,
+                                                lineNumber: 105,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 97,
                                         columnNumber: 17
                                     }, this)
                                 }, category.id, false, {
                                     fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 96,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                            lineNumber: 90,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-                    lineNumber: 71,
+                    lineNumber: 72,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-            lineNumber: 57,
+            lineNumber: 58,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/WebsitesTemplatesSection.tsx",
-        lineNumber: 56,
+        lineNumber: 57,
         columnNumber: 5
     }, this);
 }

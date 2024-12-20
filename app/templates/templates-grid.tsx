@@ -19,7 +19,10 @@ interface TemplatesGridProps {
 
 export function TemplatesGrid({ initialTemplates }: TemplatesGridProps) {
   const [currentPage, setCurrentPage] = useState(1)
-  const [filters, setFilters] = useState({ category: '', tags: [] })
+  const [filters, setFilters] = useState<{ category: string; tags: string[] }>({
+    category: '',
+    tags: [],
+  });
   const itemsPerPage = 12
 
   const filteredTemplates = initialTemplates.filter(template => {

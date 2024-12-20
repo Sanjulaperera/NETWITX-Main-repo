@@ -1,8 +1,4 @@
 {
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/website-builder/page": "app/website-builder/page.js",
-  "/templates/page": "app/templates/page.js",
-  "/web-hosting/page": "app/web-hosting/page.js",
-  "/comingsoon/page": "app/comingsoon/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
