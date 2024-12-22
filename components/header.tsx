@@ -141,10 +141,14 @@ export function Header() {
             </DropdownMenu>
           </nav>
           <div className="flex items-center space-x-4">
-            <Button variant="outline" className="hidden sm:inline-flex">
-              Log in
-            </Button>
-            <Button>Sign up</Button>
+            <Link href="/login">
+              <Button variant="outline" className="hidden sm:inline-flex">
+                Log in
+              </Button>
+            </Link>
+            <Link href="/signup">
+              <Button>Sign up</Button>
+            </Link>
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" className="md:hidden">
@@ -238,10 +242,14 @@ export function Header() {
                       </Link>
                     </div>
                   </div>
-                  <Button variant="outline" className="w-full">
-                    Log in
-                  </Button>
-                  <Button className="w-full">Sign up</Button>
+                  <Link href="/login">
+                    <Button variant="outline" className="w-full">
+                      Log in
+                    </Button>
+                  </Link>
+                  <Link href="/signup">
+                    <Button className="w-full">Sign up</Button>
+                  </Link>
                 </nav>
               </SheetContent>
             </Sheet>
