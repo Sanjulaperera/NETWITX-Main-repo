@@ -5,8 +5,8 @@ import { Toaster, toast } from "sonner";
 interface IframeEmbedProps {
   src: string
   title: string
-  width?: string
-  height?: string
+  height?: string;
+  width?: string;
   className?: string
 }
 
@@ -19,8 +19,6 @@ declare global {
 const IframeEmbed: React.FC<IframeEmbedProps> = ({
   src,
   title,
-  width = '100%',
-  height = '500px',
   className = '',
 }) => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
@@ -47,7 +45,7 @@ const IframeEmbed: React.FC<IframeEmbedProps> = ({
         try {
           window.jotformEmbedHandler(`iframe[id='${iframeRef.current.id}']`, "https://form.jotform.com/");
         } catch (error) {
-          toast.error('Error initializing JotForm:', error as any);
+          toast.error(`Error initializing JotForm: ${(error as Error).message}`);
         }
       }
     };
@@ -56,8 +54,8 @@ const IframeEmbed: React.FC<IframeEmbedProps> = ({
       try {
         await loadScript();
         initJotForm();
-      } catch (error: any) {
-        toast.error('Error loading JotForm script:', error);
+      } catch (error: unknown) {
+        toast.error(`Error loading JotForm script: ${error}`);
       }
     };
 

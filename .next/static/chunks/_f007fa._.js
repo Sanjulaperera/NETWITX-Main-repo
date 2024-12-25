@@ -16,7 +16,7 @@ var _s = __turbopack_refresh__.signature();
 "use client";
 ;
 ;
-const IframeEmbed = ({ src, title, width = '100%', height = '500px', className = '' })=>{
+const IframeEmbed = ({ src, title, className = '' })=>{
     _s();
     const iframeRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
@@ -50,7 +50,7 @@ const IframeEmbed = ({ src, title, width = '100%', height = '500px', className =
                         try {
                             window.jotformEmbedHandler(`iframe[id='${iframeRef.current.id}']`, "https://form.jotform.com/");
                         } catch (error) {
-                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toast"].error('Error initializing JotForm:', error);
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toast"].error(`Error initializing JotForm: ${error.message}`);
                         }
                     }
                 }
@@ -61,7 +61,7 @@ const IframeEmbed = ({ src, title, width = '100%', height = '500px', className =
                         await loadScript();
                         initJotForm();
                     } catch (error) {
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toast"].error('Error loading JotForm script:', error);
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toast"].error(`Error loading JotForm script: ${error}`);
                     }
                 }
             }["IframeEmbed.useEffect.handleScriptLoad"];
@@ -81,7 +81,7 @@ const IframeEmbed = ({ src, title, width = '100%', height = '500px', className =
                 position: "bottom-right"
             }, void 0, false, {
                 fileName: "[project]/components/IframeEmbed.tsx",
-                lineNumber: 76,
+                lineNumber: 74,
                 columnNumber: 8
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
@@ -101,13 +101,13 @@ const IframeEmbed = ({ src, title, width = '100%', height = '500px', className =
                 scrolling: "no"
             }, void 0, false, {
                 fileName: "[project]/components/IframeEmbed.tsx",
-                lineNumber: 77,
+                lineNumber: 75,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/IframeEmbed.tsx",
-        lineNumber: 75,
+        lineNumber: 73,
         columnNumber: 5
     }, this);
 };
