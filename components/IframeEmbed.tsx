@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect } from 'react'
+import { toast } from 'sonner';
 
 interface IframeEmbedProps {
   src: string
@@ -41,7 +42,7 @@ const IframeEmbed: React.FC<IframeEmbedProps> = ({
       if (window.Tally && window.Tally.loadEmbeds) {
         window.Tally.loadEmbeds();
       } else {
-        console.error('Tally.loadEmbeds is not available');
+        toast.error('Tally.loadEmbeds is not available');
       }
     };
 
@@ -50,7 +51,7 @@ const IframeEmbed: React.FC<IframeEmbedProps> = ({
         await loadTallyScript();
         initTally();
       } catch (error) {
-        console.error('Error loading Tally script:', error);
+        toast.error(`Error loading Tally script: ${(error as Error).message}`);
       }
     };
 
