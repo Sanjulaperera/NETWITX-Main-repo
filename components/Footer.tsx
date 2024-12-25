@@ -27,10 +27,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
-              <li><Link href="/" className="text-gray-400 hover:text-white transition">Documentation</Link></li>
-              <li><Link href="/" className="text-gray-400 hover:text-white transition">Blog</Link></li>
+              <li><Link href="/docs" className="text-gray-400 hover:text-white transition">Documentation</Link></li>
+              <li><Link href="/blog" className="text-gray-400 hover:text-white transition">Blog</Link></li>
               <li><Link href="/" className="text-gray-400 hover:text-white transition">Case Studies</Link></li>
-              <li><Link href="/" className="text-gray-400 hover:text-white transition">Support</Link></li>
+              <li><Link href="/support" className="text-gray-400 hover:text-white transition">Support</Link></li>
             </ul>
           </div>
 
@@ -54,8 +54,8 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">&copy; 2024 Netwitx. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 sm:mt-0">
-            <Link href="/" className="text-gray-400 hover:text-white text-sm transition">Privacy Policy</Link>
-            <Link href="/" className="text-gray-400 hover:text-white text-sm transition">Terms of Service</Link>
+            <Link href="/privacy" className="text-gray-400 hover:text-white text-sm transition">Privacy Policy</Link>
+            <Link href="/terms" className="text-gray-400 hover:text-white text-sm transition">Terms of Service</Link>
           </div>
         </div>
       </div>

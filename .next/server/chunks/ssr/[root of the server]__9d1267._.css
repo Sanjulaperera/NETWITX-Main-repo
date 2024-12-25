@@ -590,6 +590,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.mb-1 {
+  margin-bottom: .25rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -680,6 +684,10 @@ body {
 
 .hidden {
   display: none;
+}
+
+.aspect-video {
+  aspect-ratio: 16 / 9;
 }
 
 .h-10 {
@@ -1197,6 +1205,10 @@ body {
   border-top-width: 1px;
 }
 
+.border-destructive\/50 {
+  border-color: hsl(var(--destructive) / .5);
+}
+
 .border-gray-800 {
   --tw-border-opacity: 1;
   border-color: rgb(31 41 55 / var(--tw-border-opacity, 1));
@@ -1526,6 +1538,11 @@ body {
   padding-bottom: 5rem;
 }
 
+.py-3 {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1706,6 +1723,10 @@ body {
 
 .text-current {
   color: currentColor;
+}
+
+.text-destructive {
+  color: hsl(var(--destructive));
 }
 
 .text-destructive-foreground {
@@ -2242,6 +2263,40 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.group.toaster .group-\[\.toaster\]\:border-border {
+  border-color: hsl(var(--border));
+}
+
+.group.toast .group-\[\.toast\]\:bg-muted {
+  background-color: hsl(var(--muted));
+}
+
+.group.toast .group-\[\.toast\]\:bg-primary {
+  background-color: hsl(var(--primary));
+}
+
+.group.toaster .group-\[\.toaster\]\:bg-background {
+  background-color: hsl(var(--background));
+}
+
+.group.toast .group-\[\.toast\]\:text-muted-foreground {
+  color: hsl(var(--muted-foreground));
+}
+
+.group.toast .group-\[\.toast\]\:text-primary-foreground {
+  color: hsl(var(--primary-foreground));
+}
+
+.group.toaster .group-\[\.toaster\]\:text-foreground {
+  color: hsl(var(--foreground));
+}
+
+.group.toaster .group-\[\.toaster\]\:shadow-lg {
+  --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .peer:disabled ~ .peer-disabled\:cursor-not-allowed {
   cursor: not-allowed;
 }
@@ -2300,6 +2355,10 @@ body {
 
 .data-\[state\=open\]\:duration-500[data-state="open"] {
   transition-duration: .5s;
+}
+
+.dark\:border-destructive:is(.dark *) {
+  border-color: hsl(var(--destructive));
 }
 
 .dark\:border-neutral-700:is(.dark *) {
@@ -2614,6 +2673,23 @@ body {
   -webkit-line-clamp: 1;
 }
 
+.\[\&\>svg\+div\]\:translate-y-\[-3px\] > svg + div {
+  --tw-translate-y: -3px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.\[\&\>svg\]\:absolute > svg {
+  position: absolute;
+}
+
+.\[\&\>svg\]\:left-4 > svg {
+  left: 1rem;
+}
+
+.\[\&\>svg\]\:top-4 > svg {
+  top: 1rem;
+}
+
 .\[\&\>svg\]\:size-4 > svg {
   width: 1rem;
   height: 1rem;
@@ -2623,9 +2699,25 @@ body {
   flex-shrink: 0;
 }
 
+.\[\&\>svg\]\:text-destructive > svg {
+  color: hsl(var(--destructive));
+}
+
+.\[\&\>svg\]\:text-foreground > svg {
+  color: hsl(var(--foreground));
+}
+
+.\[\&\>svg\~\*\]\:pl-7 > svg ~ * {
+  padding-left: 1.75rem;
+}
+
 .\[\&\[data-state\=open\]\>svg\]\:rotate-180[data-state="open"] > svg {
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.\[\&_p\]\:leading-relaxed p {
+  line-height: 1.625;
 }
 
 .\[\&_svg\]\:pointer-events-none svg {
