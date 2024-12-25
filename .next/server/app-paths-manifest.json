@@ -1,6 +1,10 @@
 {
-  "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/Employment-Agreement/page": "app/Employment-Agreement/page.js"
+  "/comingsoon/page": "app/comingsoon/page.js",
+  "/Employment-Agreement/page": "app/Employment-Agreement/page.js",
+  "/web-hosting/page": "app/web-hosting/page.js",
+  "/website-builder/page": "app/website-builder/page.js",
+  "/page": "app/page.js",
+  "/templates/page": "app/templates/page.js"
 }
