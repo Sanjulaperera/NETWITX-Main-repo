@@ -25,6 +25,7 @@ export default function Home() {
                 managing your websites with ease.
               </p>
               <div className="relative z-10 flex justify-center space-x-4 pt-10">
+                <Link href="/website-creator">
                 <Button
                   size="lg"
                   variant="default"
@@ -35,6 +36,7 @@ export default function Home() {
                     →
                   </span>
                 </Button>
+                </Link>
                 <Button
                   size="lg"
                   variant="outline"

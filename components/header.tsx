@@ -60,7 +60,7 @@ export function Header() {
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <Link href="/templates" className="flex items-center">
+                  <Link href="/website-creator" className="flex items-center">
                     <PanelsTopLeft className="mr-2 h-4 w-4" />
                     <span>Website Templates</span>
                   </Link>

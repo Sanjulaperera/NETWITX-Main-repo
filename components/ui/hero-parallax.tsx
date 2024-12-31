@@ -118,7 +118,7 @@ export const Header = () => {
       <Button
         size="lg"
         variant="default"
-        className="text-lg px-8 py-4 relative group"
+        className="text-lg px-8 py-4 relative group scroll-smooth"
       >
         Browse Templates
         <span className="inline-block transition-transform duration-300 ease-in-out group-hover:translate-x-2">
