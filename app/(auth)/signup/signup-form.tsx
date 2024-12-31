@@ -72,7 +72,7 @@ export default function SignUpForm() {
           <TriangleAlert className="h-4 w-4" />
           <AlertTitle>Heads up!</AlertTitle>
           <AlertDescription>
-            Website is still under development. Apologize for any inconvenience.
+            Website is still under development. Unable to Sign up, Apologize for any inconvenience.
           </AlertDescription>
         </Alert>
         <div className="text-center py-12">
@@ -86,6 +86,7 @@ export default function SignUpForm() {
             <div className="grid gap-2">
               <Label htmlFor="email">Email</Label>
               <Input
+              disabled
                 id="email"
                 type="email"
                 name="email"
@@ -97,6 +98,7 @@ export default function SignUpForm() {
             <div className="grid gap-2">
               <Label htmlFor="password">Password</Label>
               <Input
+              disabled
                 id="password"
                 type="password"
                 name="password"
@@ -108,7 +110,7 @@ export default function SignUpForm() {
             </div>
             <Button
               type="submit"
-              disabled={isLoading}
+              disabled
               className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-md transition duration-300 ease-in-out transform hover:scale-105"
             >
               {isLoading ? "Signing up..." : "Sign Up"}

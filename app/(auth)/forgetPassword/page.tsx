@@ -77,6 +77,7 @@ const ForgotPassword = () => {
             <div className="grid gap-2 z-20">
               <div className="grid gap-10 ">
                 <Input
+                  disabled
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -85,7 +86,7 @@ const ForgotPassword = () => {
                 />
               </div>
               <div className="flex gap-5">
-                <Button onClick={handleForgotPassword}>
+                <Button disabled onClick={handleForgotPassword}>
                   Send Password Reset Email
                 </Button>
                 <Button onClick={goBack} variant="secondary">

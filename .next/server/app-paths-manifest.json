@@ -5,6 +5,7 @@
   "/(auth)/login/page": "app/(auth)/login/page.js",
   "/(auth)/signup/page": "app/(auth)/signup/page.js",
   "/comingsoon/page": "app/comingsoon/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
   "/page": "app/page.js",
   "/templates/page": "app/templates/page.js",
   "/web-hosting/page": "app/web-hosting/page.js",

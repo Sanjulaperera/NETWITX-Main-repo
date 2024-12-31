@@ -20,7 +20,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
 
   const router = useRouter();
-  
+
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault(); // Prevent the default form submission behavior
 
@@ -55,9 +55,9 @@ const Login = () => {
   return (
     <div className="w-full lg:grid lg:min-h-[600px] lg:grid-cols-2 xl:min-h-[600px]">
       <div className="flex items-center justify-center py-12">
-      <Toaster richColors position="top-center" />
-      {/* Logo in the top-left corner */}
-      <div className="absolute top-5 left-5">
+        <Toaster richColors position="top-center" />
+        {/* Logo in the top-left corner */}
+        <div className="absolute top-5 left-5">
           <Image
             src="https://uploadthing.com/f/3avCIVBvIockvnJbGmwCYVxRvriBtUhFA7MK8OW0dylE3Qqg" // Replace with the actual path to your logo
             alt="Logo"
@@ -72,7 +72,8 @@ const Login = () => {
             <TriangleAlert className="h-4 w-4" />
             <AlertTitle>Heads up!</AlertTitle>
             <AlertDescription>
-              Website is still under development. Apologize for any inconvenience.
+              Website is still under development. Unable to Login now. Apologize
+              for any inconvenience.
             </AlertDescription>
           </Alert>
 
@@ -86,6 +87,7 @@ const Login = () => {
             <div className="grid gap-2">
               <Label htmlFor="email">Email</Label>
               <Input
+                disabled
                 id="email"
                 type="email"
                 value={email}
@@ -105,6 +107,7 @@ const Login = () => {
                 </Link>
               </div>
               <Input
+                disabled
                 id="password"
                 type="password"
                 value={password}
@@ -112,7 +115,7 @@ const Login = () => {
                 required
               />
             </div>
-            <Button type="submit" className="w-full">
+            <Button disabled type="submit" className="w-full">
               Login
             </Button>
           </form>
