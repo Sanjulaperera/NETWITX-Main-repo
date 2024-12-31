@@ -1,6 +1,7 @@
 {
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/_not-found/page": "app/_not-found/page.js",
+<<<<<<< HEAD
   "/(main)/website-creator/page": "app/(main)/website-creator/page.js",
   "/Information-form/page": "app/Information-form/page.js",
   "/comingsoon/page": "app/comingsoon/page.js",
@@ -10,4 +11,15 @@
   "/page": "app/page.js",
   "/(main)/templates/page": "app/(main)/templates/page.js",
   "/(main)/templates/[id]/page": "app/(main)/templates/[id]/page.js"
+=======
+  "/(auth)/forgetPassword/page": "app/(auth)/forgetPassword/page.js",
+  "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/(auth)/signup/page": "app/(auth)/signup/page.js",
+  "/comingsoon/page": "app/comingsoon/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/page": "app/page.js",
+  "/templates/page": "app/templates/page.js",
+  "/web-hosting/page": "app/web-hosting/page.js",
+  "/website-builder/page": "app/website-builder/page.js"
+>>>>>>> login
 }
