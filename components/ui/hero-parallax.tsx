@@ -11,6 +11,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
+
 export const HeroParallax = ({
   products,
 }: {
@@ -104,6 +105,7 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
+    
     <div className="relative z-10 max-w-7xl mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
       <h1 className="text-3xl md:text-7xl font-bold dark:text-white">
         Make any templates <br /> Yours effortlessly.
@@ -128,6 +130,7 @@ export const Header = () => {
       </Link>
       </div>
     </div>
+
   );
 };
 

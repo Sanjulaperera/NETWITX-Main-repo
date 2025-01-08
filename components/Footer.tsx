@@ -1,67 +1,91 @@
-import Link from 'next/link'
-import { Facebook, Twitter, Linkedin, Instagram, Mail } from 'lucide-react'
+import Link from "next/link"
+import Image from "next/image"
+import { Facebook, Linkedin, Twitter } from 'lucide-react'
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Company Info */}
-          <div>
-            <h2 className="text-2xl font-bold mb-4">NETWITX.com</h2>
-            <p className="text-gray-400">Empowering businesses with cutting-edge web services and solutions.</p>
-          </div>
+    <footer className="w-full px-4 md:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto"> {/* Added max-width and centering */}
+        {/* Navigation Section */}
+        <div className="w-full border rounded-3xl mt-8">
+          <div className="px-4 py-10 md:px-6">
+            <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-5">
+              {/* Logo Column */}
+              <div className="col-span-2 lg:col-span-1">
+                <Link className="flex items-center gap-2 font-semibold" href="/">
+                <Image
+                priority={true}
+                src="https://uploadthing.com/f/3avCIVBvIockvnJbGmwCYVxRvriBtUhFA7MK8OW0dylE3Qqg"
+                alt="Netwitx Logo"
+                width={500}
+                height={500}
+                className="h-10 w-28 object-contain"
+              />
+            </Link>
+                
+              </div>
 
-          {/* Products */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Products</h3>
-            <ul className="space-y-2">
-              <li><Link href="/" className="text-gray-400 hover:text-white transition">API Management</Link></li>
-              <li><Link href="/" className="text-gray-400 hover:text-white transition">Cloud Hosting</Link></li>
-              <li><Link href="/" className="text-gray-400 hover:text-white transition">Analytics</Link></li>
-              <li><Link href="/" className="text-gray-400 hover:text-white transition">Security Solutions</Link></li>
-            </ul>
-          </div>
+              {/* Product Column */}
+              <div className="flex flex-col space-y-4">
+                <h3 className="font-medium">Product</h3>
+                <nav className="flex flex-col space-y-2">
+                  <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="#">Pricing</Link>
+                  <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="#">Analysis</Link>
+                  <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="#">API</Link>
+                </nav>
+              </div>
 
-          {/* Resources */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Resources</h3>
-            <ul className="space-y-2">
-              <li><Link href="/docs" className="text-gray-400 hover:text-white transition">Documentation</Link></li>
-              <li><Link href="/blog" className="text-gray-400 hover:text-white transition">Blog</Link></li>
-              <li><Link href="/" className="text-gray-400 hover:text-white transition">Case Studies</Link></li>
-              <li><Link href="/support" className="text-gray-400 hover:text-white transition">Support</Link></li>
-            </ul>
-          </div>
+              {/* Company Column */}
+              <div className="flex flex-col space-y-4">
+                <h3 className="font-medium">Company</h3>
+                <nav className="flex flex-col space-y-2">
+                  <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="#">Careers</Link>
+                  <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="#">Blog</Link>
+                  <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="#">Company</Link>
+                </nav>
+              </div>
 
-          {/* Contact & Social */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
-            <div className="flex space-x-4 mb-4">
-              <a href="#" className="text-gray-400 hover:text-white transition"><Facebook size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-white transition"><Twitter size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-white transition"><Linkedin size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-white transition"><Instagram size={20} /></a>
+              {/* Support Column */}
+              <div className="flex flex-col space-y-4">
+                <h3 className="font-medium">Support</h3>
+                <nav className="flex flex-col space-y-2">
+                  <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="#">Help center</Link>
+                  <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="#">Community</Link>
+                </nav>
+              </div>
+
+              {/* Legal Column */}
+              <div className="flex flex-col space-y-4">
+                <h3 className="font-medium">Company</h3>
+                <nav className="flex flex-col space-y-2 ">
+                  <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="#" >Terms of service</Link>
+                  <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="#">Privacy policy</Link>
+                </nav>
+              </div>
             </div>
-            <div className="flex items-center text-gray-400">
-              <Mail size={20} className="mr-2" />
-              <a href="mailto:sanjula.perera@netwitx.com" className="hover:text-white transition">contact@netwitx.com</a>
-            </div>
-          </div>
-        </div>
 
-        {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">&copy; 2024 Netwitx. All rights reserved.</p>
-          <div className="flex space-x-4 mt-4 sm:mt-0">
-            <Link href="/privacy" className="text-gray-400 hover:text-white text-sm transition">Privacy Policy</Link>
-            <Link href="/terms" className="text-gray-400 hover:text-white text-sm transition">Terms of Service</Link>
+            {/* Bottom Bar */}
+            <div className="mt-10 flex flex-col justify-between gap-4 border-t pt-6 sm:flex-row sm:items-center">
+              <p className="text-sm text-gray-500">© 2025 Netwitx Inc.</p>
+              <div className="flex gap-4">
+                <Link href="#" className="text-gray-500 hover:text-blue-600">
+                  <Facebook className="size-5" />
+                  <span className="sr-only">Facebook</span>
+                </Link>
+                <Link href="https://x.com/netwitx" className="text-gray-500 hover:text-black">
+                  <Twitter className="size-5" />
+                  <span className="sr-only">Twitter</span>
+                </Link>
+                <Link href="#" className="text-gray-500 hover:text-pink-600">
+                  <Linkedin className="size-5" />
+                  <span className="sr-only">LinkedIn</span>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </footer>
   )
 }
-
-export default Footer
 

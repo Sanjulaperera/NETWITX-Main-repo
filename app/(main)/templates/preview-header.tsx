@@ -2,6 +2,8 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Monitor, Smartphone } from "lucide-react";
+import { AnimatedModalDemo } from "./makeYours";
+
 
 interface PreviewHeaderProps {
   title: string;
@@ -18,6 +20,8 @@ export function PreviewHeader({
   onBack,
 }: PreviewHeaderProps) {
   return (
+    <>
+
     <header className="flex items-center justify-between p-4 border-b bg-white">
       <div className="flex items-center space-x-4">
         <Button variant="ghost" size="icon" onClick={onBack}>
@@ -46,8 +50,9 @@ export function PreviewHeader({
             Mobile
           </Button>
         </div>
-        <Button>Make it yours</Button>
+        <AnimatedModalDemo />
       </div>
     </header>
+    </>
   );
 }

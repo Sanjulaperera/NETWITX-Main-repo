@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-{"node":{},"edge":{},"encryptionKey":"WCiiw8txZlSr9VTs03/sXtI7fC3T3WPQJDJVSpw28IA="}
-=======
-{"node":{"60400c7a2bc6afa159c0e722f96bab521d7928d56f":{"workers":{"app/(auth)/signup/page":{"moduleId":"43166","async":false}},"layer":{"app/(auth)/signup/page":"action-browser"}}},"edge":{},"encryptionKey":"WCiiw8txZlSr9VTs03/sXtI7fC3T3WPQJDJVSpw28IA="}
->>>>>>> login
+{
+  "node": {},
+  "edge": {},
+  "encryptionKey": "JVz9mzsaIkHDIsZi/NvfkiPLG9VWUb5K/2lX9G35d/w="
+}

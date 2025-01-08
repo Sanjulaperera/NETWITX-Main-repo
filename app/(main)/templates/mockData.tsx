@@ -3,6 +3,7 @@ export interface Template {
   title: string;
   category: string;
   tags: string[];
+  keywords: string[];
   imageUrl: string;
   link: string;
 }
@@ -13,6 +14,7 @@ export const mockTemplates: Template[] = [
     title: "TroWeld Welding",
     category: "Business",
     tags: ["Free"],
+    keywords: ["designer", "developer", "artist", "photographer", "creative", "showcase", "gallery", "resume"],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltREcTVt879WLqhOUariGQYlTJNdZFA0jw8Dgf",
     link: "https://netwitxfiles.github.io/troweld/",
@@ -22,6 +24,7 @@ export const mockTemplates: Template[] = [
     title: "AutoMated",
     category: "Business",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltk2nhqKbtTLOvUDG4xP5AMcdKmjYVuyBq78F0",
     link: "https://netwitxfiles.github.io/automated/",
@@ -31,6 +34,7 @@ export const mockTemplates: Template[] = [
     title: "Zarage",
     category: "Business",
     tags: ["Free"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltIXX0mDTt7yRWQdFOXesMq2JABhGjYS9u8VE6",
     link: "https://netwitxfiles.github.io/zarage/",
@@ -40,6 +44,7 @@ export const mockTemplates: Template[] = [
     title: "Cloapedia",
     category: "Personal",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltrtcIkb5HZ8mQkuXalTdfipOy37xb9joWcILF",
     link: "https://netwitxfiles.github.io/cloapedia/",
@@ -49,6 +54,7 @@ export const mockTemplates: Template[] = [
     title: "Constructed",
     category: "Business",
     tags: ["free"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltmL9Hr6q7Efia9R8vW2gQSLM7kAOBGo4h1I3d",
     link: "https://netwitxfiles.github.io/constructed/",
@@ -59,6 +65,7 @@ export const mockTemplates: Template[] = [
     title: "CoTo",
     category: "Business",
     tags: ["Free"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltp8vZFiErceo27DYGqM6AXJCk8sB4FVKhmjv5",
     link: "https://netwitxfiles.github.io/coto/",
@@ -68,6 +75,7 @@ export const mockTemplates: Template[] = [
     title: "DelFood",
     category: "Business",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltmAWZbk7Efia9R8vW2gQSLM7kAOBGo4h1I3dZ",
     link: "https://netwitxfiles.github.io/delfood/",
@@ -77,6 +85,7 @@ export const mockTemplates: Template[] = [
     title: "Electricca",
     category: "Business",
     tags: ["Free"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltuXcS9UnJOlv8GsR7ZfXIEW2C6d3oBiuw1Knq",
     link: "https://netwitxfiles.github.io/electricca/",
@@ -86,6 +95,7 @@ export const mockTemplates: Template[] = [
     title: "Feane",
     category: "Business",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltn0EvybRvRqQ5jUZXAMuphI9YTSNogLi4Pwne",
     link: "https://netwitxfiles.github.io/feane/",
@@ -95,6 +105,7 @@ export const mockTemplates: Template[] = [
     title: "Finter",
     category: "Business",
     tags: ["Free"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNlt4oVtPsDiFhmGQlfpSjXuoqLcC6wPxg7KE0bO",
     link: "https://netwitxfiles.github.io/finter/",
@@ -104,6 +115,7 @@ export const mockTemplates: Template[] = [
     title: "Fonicy",
     category: "Business",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltsigAFdu6RJhXqanpv57fWuNFM4wHm9e8VEkj",
     link: "https://netwitxfiles.github.io/fonicy/",
@@ -113,6 +125,7 @@ export const mockTemplates: Template[] = [
     title: "Gravita",
     category: "Business",
     tags: ["Free"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltAhhumb9SPF29HlSJWNk5visoxXumU8A01Ggc",
     link: "https://netwitxfiles.github.io/Gravita/",
@@ -122,6 +135,7 @@ export const mockTemplates: Template[] = [
     title: "HairCut",
     category: "Business",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltE7lDbLeeGiFsxTKBCob2rwMQYPRkjLA5yqgN",
     link: "https://netwitxfiles.github.io/haircut/",
@@ -131,6 +145,7 @@ export const mockTemplates: Template[] = [
     title: "Handyman",
     category: "Business",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltqdym3XHMJdxCm7TzsNbWl8oU0BcpyLEraHFD",
     link: "https://netwitxfiles.github.io/handyman/",
@@ -140,6 +155,7 @@ export const mockTemplates: Template[] = [
     title: "Heron",
     category: "Business",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltRw2Ezt879WLqhOUariGQYlTJNdZFA0jw8Dgf",
     link: "https://netwitxfiles.github.io/heron/",
@@ -149,6 +165,7 @@ export const mockTemplates: Template[] = [
     title: "Inodino",
     category: "Business",
     tags: ["Free"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltLKbzRIZaCKAiy6TVlY3zpGkSb1jONtIxsvh2",
     link: "https://netwitxfiles.github.io/inodino/",
@@ -158,6 +175,7 @@ export const mockTemplates: Template[] = [
     title: "Intimate",
     category: "Business",
     tags: ["Free"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNlt7vNHhfWIhABgdQHiYKf0b9qD4PXntycCm58l",
     link: "https://netwitxfiles.github.io/intimate/",
@@ -167,6 +185,7 @@ export const mockTemplates: Template[] = [
     title: "Jazzy",
     category: "Business",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltdfHrT6GMT2KNHSqOlLZ5pUFEcz76AhXPo4D1",
     link: "https://netwitxfiles.github.io/jazzy/",
@@ -176,6 +195,7 @@ export const mockTemplates: Template[] = [
     title: "Jomily",
     category: "Business",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNlthmwBxIzFRSGYzI52gFMZC8ifmpdPtjOVlHD4",
     link: "https://netwitxfiles.github.io/jomily/",
@@ -185,6 +205,7 @@ export const mockTemplates: Template[] = [
     title: "Neo Gym",
     category: "Business",
     tags: ["Free"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltsZ3WEVu6RJhXqanpv57fWuNFM4wHm9e8VEkj",
     link: "https://netwitxfiles.github.io/neogym/",
@@ -194,6 +215,7 @@ export const mockTemplates: Template[] = [
     title: "PestKit",
     category: "Business",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltxGcbmNYytqWBkJb3hCS1De9U0dOjaXw6NRLP",
     link: "https://netwitxfiles.github.io/PestKit/",
@@ -203,6 +225,7 @@ export const mockTemplates: Template[] = [
     title: "Phalanx",
     category: "Business",
     tags: ["Free"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltvispd6Qbzjd6hE3K2TMxPurqi1In9clsv5mZ",
     link: "https://netwitxfiles.github.io/phalanx/",
@@ -212,6 +235,7 @@ export const mockTemplates: Template[] = [
     title: "Food Funday",
     category: "Business",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltgSBEkwKNRrEAFtIP4o1HMDcdb0fWYjGJCnqZ",
     link: "https://netwitxfiles.github.io/Restaurant/",
@@ -221,6 +245,7 @@ export const mockTemplates: Template[] = [
     title: "Scarvve",
     category: "Personal",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltxDu6T8YytqWBkJb3hCS1De9U0dOjaXw6NRLP",
     link: "https://netwitxfiles.github.io/scarvve/",
@@ -230,6 +255,7 @@ export const mockTemplates: Template[] = [
     title: "SportPar",
     category: "Business ",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltkEd1LGbtTLOvUDG4xP5AMcdKmjYVuyBq78F0",
     link: "https://netwitxfiles.github.io/sportpar/",
@@ -239,6 +265,7 @@ export const mockTemplates: Template[] = [
     title: "Style Barber",
     category: "Business",
     tags: ["Free", "Premium"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltIV0v8bTt7yRWQdFOXesMq2JABhGjYS9u8VE6",
     link: "https://netwitxfiles.github.io/stylebarber/",
@@ -248,6 +275,7 @@ export const mockTemplates: Template[] = [
     title: "Ulio",
     category: "Personal",
     tags: ["Free"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltRvUZbdQ879WLqhOUariGQYlTJNdZFA0jw8Dg",
     link: "https://netwitxfiles.github.io/ulio/",
@@ -257,6 +285,7 @@ export const mockTemplates: Template[] = [
     title: "TraCork",
     category: "Business",
     tags: ["Free"],
+    keywords: [],
     imageUrl:
       "https://uploadthing.com/f/9k2xQe1rFNltxUjIlB7YytqWBkJb3hCS1De9U0dOjaXw6NRL",
     link: "https://netwitxfiles.github.io/tracork/",

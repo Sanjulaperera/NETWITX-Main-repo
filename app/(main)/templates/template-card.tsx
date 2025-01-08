@@ -10,9 +10,10 @@ import { useToast } from "@/hooks/use-toast"
 interface TemplateCardProps {
   template: Template
   currentPage: number
+  searchTerm: string
 }
 
-export function TemplateCard({ template, currentPage }: TemplateCardProps) {
+export function TemplateCard({ template, currentPage, searchTerm }: TemplateCardProps) {
   const router = useRouter()
   const { toast } = useToast()
 
@@ -23,6 +24,15 @@ export function TemplateCard({ template, currentPage }: TemplateCardProps) {
       variant: "destructive",
     })
   }
+
+  const highlightMatches = (text: string, searchTerm: string) => {
+    if (!searchTerm) return text;
+    const regex = new RegExp(`(${searchTerm})`, 'gi');
+    return text.split(regex).map((part, index) => 
+      regex.test(part) ? <span key={index} className="bg-green-200">{part}</span> : part
+    );
+  }
+
 
   return (
     <Card className="group relative overflow-hidden">
@@ -49,7 +59,7 @@ export function TemplateCard({ template, currentPage }: TemplateCardProps) {
         </div>
         <div className="p-4">
           <h3 className="text-lg font-semibold mb-2">{template.title}</h3>
-          <p className="text-sm text-gray-600 mb-2">{template.category}</p>
+          <p className="text-sm text-gray-600 mb-2">{highlightMatches(template.category, searchTerm)}</p>
           <div className="flex flex-wrap gap-2">
             {template.tags.map(tag => (
               <span key={tag} className="text-xs bg-gray-200 rounded-full px-2 py-1">
