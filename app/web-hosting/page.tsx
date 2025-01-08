@@ -41,7 +41,7 @@ export default function WebHostingPage() {
               </Button>
               <div className="mt-12">
                 <Image
-                  src="https://uploadthing.com/f/3avCIVBvIockvs7g6K7wCYVxRvriBtUhFA7MK8OW0dylE3Qq"
+                  src="https://uploadthing.com/f/3avCIVBvIockyCK1opkMtCyAKSs9bfwRWJkIXZrlULjx6Ymd"
                   alt="Web Hosting Illustration"
                   width={500}
                   height={300}

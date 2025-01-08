@@ -1,7 +1,8 @@
 import { Suspense } from "react";
-import { TemplatesContent } from "@/app/(main)/templates/templates-content";
+import { TemplatesContent } from "./templates-content";
 import { Skeleton } from "@/components/ui/skeleton";
 import { HeroParallaxDemo } from "@/components/templates-hero";
+
 
 export default function TemplatesPage() {
   return (

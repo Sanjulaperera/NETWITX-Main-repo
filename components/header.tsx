@@ -31,11 +31,12 @@ import {
 export function Header() {
   return (
     <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 ">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <Image
+                priority={true}
                 src="https://uploadthing.com/f/3avCIVBvIockvnJbGmwCYVxRvriBtUhFA7MK8OW0dylE3Qqg"
                 alt="Netwitx Logo"
                 width={500}

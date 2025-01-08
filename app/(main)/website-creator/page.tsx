@@ -9,7 +9,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 const websiteTypes = [
-  "Online Store",
+  "Business",
   "Portfolio",
   "Tradie",
   "Blog",
@@ -196,7 +196,7 @@ export default function WebsiteBuilder() {
             </>
           ) : (
             <>
-              <p className="text-sm text-gray-500 uppercase mb-2">EXAMPLES</p>
+              <p className="text-sm text-gray-500 uppercase mb-2">Most Search</p>
               {websiteTypes.map((type) => (
                 <button
                   key={type}
