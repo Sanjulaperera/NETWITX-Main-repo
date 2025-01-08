@@ -121,7 +121,7 @@ const resourcesLinks = [
   },
   {
     title: "Contact Us",
-    href: "/solutions",
+    href: "/about/contact",
     description: "Got a problem? Get in touch with our team.",
   },
 ];
@@ -298,7 +298,7 @@ export function MainNav() {
                         solutions.
                       </p>
                       <Link
-                        href="#"
+                        href="/about/us"
                         className="mt-4 inline-flex items-center text-sm font-medium text-primary hover:underline"
                       >
                         Read more about us
@@ -335,7 +335,7 @@ export function MainNav() {
                         solutions.
                       </p>
                       <Link
-                        href="#"
+                        href="/about/us"
                         className="mt-4 inline-flex items-center text-sm font-medium text-primary hover:underline"
                       >
                         Read more about us
@@ -372,7 +372,7 @@ export function MainNav() {
                         solutions.
                       </p>
                       <Link
-                        href="#"
+                        href="/about/us"
                         className="mt-4 inline-flex items-center text-sm font-medium text-primary hover:underline"
                       >
                         Read more about us

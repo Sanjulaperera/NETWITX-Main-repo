@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/sanjula/Documents/NETWITX-Main-repo/app/%28main%29/templates/layout.tsx"],"sourcesContent":["import { Toaster } from \"@/components/ui/toaster\";\n\nexport default function TemplatesLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return (\n    <>\n      {children}\n\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEe,SAAS,gBAAgB,EACtC,QAAQ,EAGT;IACC,qBACE;kBACG;;AAIP"}},
-    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

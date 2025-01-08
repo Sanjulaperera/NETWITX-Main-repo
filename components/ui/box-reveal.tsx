@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef, JSX } from "react";
 import { motion, useAnimation, useInView } from "motion/react";
 
 interface BoxRevealProps {

@@ -21,16 +21,18 @@ export default function Hero() {
 
           <h1 className="mb-6 text-4xl text-center font-medium tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
             <BoxReveal boxColor={"#86efac"} duration={0.5}>
-              Unlock Your Business&apos;s
+              <>{`Unlock Your Business's`}</>
             </BoxReveal>
             <BoxReveal boxColor={"#86efac"} duration={0.2}>
-              Ultimate{" "}
-              <span className="relative">
-                Success
-                <span className="absolute -bottom-2 left-0 w-full">
-                  <Underline className="w-full h-auto text-green-500" />
+              <>
+                Ultimate{" "}
+                <span className="relative">
+                  Success
+                  <span className="absolute -bottom-2 left-0 w-full">
+                    <Underline className="w-full h-auto text-green-500" />
+                  </span>
                 </span>
-              </span>
+              </>
             </BoxReveal>
           </h1>
 

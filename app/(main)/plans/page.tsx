@@ -47,7 +47,7 @@ const PricingPage: React.FC = () => {
             <div className="text-center mb-20">
               <h1 className="text-5xl font-bold tracking-tight mb-6">
                 <BoxReveal boxColor={"#dcfce7"} duration={0.5}>
-                  Website and Hosting Packages
+                  <span>Website and Hosting Packages</span>
                 </BoxReveal>
               </h1>
               <motion.div
