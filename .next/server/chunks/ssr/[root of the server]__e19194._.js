@@ -268,9 +268,27 @@ const comparisonTableData = [
     },
     {
         feature: "Storage",
-        starter: "2GB",
-        growth: "10GB",
+        starter: "5GB",
+        growth: "20GB",
         elite: "100GB"
+    },
+    {
+        feature: "Website Templates",
+        starter: "Free",
+        growth: "Premium",
+        elite: "Customizable"
+    },
+    {
+        feature: "Solutions",
+        starter: false,
+        growth: "1 Free Solution",
+        elite: "All Solutions"
+    },
+    {
+        feature: "Free SSL Certificate",
+        starter: false,
+        growth: true,
+        elite: true
     },
     {
         feature: "Security",
@@ -285,16 +303,28 @@ const comparisonTableData = [
         elite: "Detailed Analysis"
     },
     {
-        feature: "Customer Support",
-        starter: "24/7 Standard",
-        growth: "24/7 Standard",
-        elite: "24/7 Priority"
-    },
-    {
         feature: "Free Domain",
         starter: false,
         growth: "1 Year",
         elite: "3 Years"
+    },
+    {
+        feature: "Custom Email",
+        starter: false,
+        growth: "1 Account",
+        elite: "5 Accounts"
+    },
+    {
+        feature: "Netwitx Ads",
+        starter: false,
+        growth: false,
+        elite: "Free Credits"
+    },
+    {
+        feature: "Customer Support",
+        starter: "24/7 Standard",
+        growth: "24/7 Standard",
+        elite: "24/7 Priority"
     }
 ];
 }}),
@@ -2745,7 +2775,7 @@ const PricingPage = ()=>{
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                     className: "text-sm font-semibold uppercase tracking-wide text-gray-500 mb-2",
-                                                                    children: "Starter"
+                                                                    children: "Basic"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
                                                                     lineNumber: 82,
@@ -2764,7 +2794,7 @@ const PricingPage = ()=>{
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: "text-5xl font-extrabold",
-                                                                            children: "$9.99"
+                                                                            children: "$9.97"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
                                                                             lineNumber: 89,
@@ -2825,7 +2855,7 @@ const PricingPage = ()=>{
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: "text-sm text-gray-600",
-                                                                            children: "1 Page Website"
+                                                                            children: "2 Websites"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
                                                                             lineNumber: 102,
@@ -2849,7 +2879,7 @@ const PricingPage = ()=>{
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: "text-sm text-gray-600",
-                                                                            children: "Shared Hosting"
+                                                                            children: "5GB Storage"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
                                                                             lineNumber: 108,
@@ -2873,7 +2903,7 @@ const PricingPage = ()=>{
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: "text-sm text-gray-600",
-                                                                            children: "24/7 Customer Support"
+                                                                            children: "Shared Hosting"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
                                                                             lineNumber: 114,
@@ -2921,7 +2951,7 @@ const PricingPage = ()=>{
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: "text-sm text-gray-600",
-                                                                            children: "2GB Storage"
+                                                                            children: "Access to free templates"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
                                                                             lineNumber: 126,
@@ -2945,7 +2975,7 @@ const PricingPage = ()=>{
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: "text-sm text-gray-600",
-                                                                            children: "Free SSL Certificate"
+                                                                            children: "Standard Security"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
                                                                             lineNumber: 132,
@@ -2955,6 +2985,30 @@ const PricingPage = ()=>{
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
                                                                     lineNumber: 130,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "flex items-start",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                            className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                            lineNumber: 137,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "text-sm text-gray-600",
+                                                                            children: "24/7 support"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                            lineNumber: 138,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                    lineNumber: 136,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
@@ -2994,7 +3048,7 @@ const PricingPage = ()=>{
                                                         children: "Most Popular"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 149,
+                                                        lineNumber: 155,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -3008,15 +3062,15 @@ const PricingPage = ()=>{
                                                                         children: "Growth"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                        lineNumber: 154,
+                                                                        lineNumber: 160,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         className: "text-white mb-6",
-                                                                        children: "Ideal for growing businesses and portfolios."
+                                                                        children: "Ideal for businesses and growing websites."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                        lineNumber: 157,
+                                                                        lineNumber: 163,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3024,10 +3078,10 @@ const PricingPage = ()=>{
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 className: "text-5xl font-extrabold text-white",
-                                                                                children: "$24.99"
+                                                                                children: "$24.97"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                                lineNumber: 161,
+                                                                                lineNumber: 167,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3035,31 +3089,31 @@ const PricingPage = ()=>{
                                                                                 children: "/ month"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                                lineNumber: 164,
+                                                                                lineNumber: 170,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                        lineNumber: 160,
+                                                                        lineNumber: 166,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 153,
+                                                                lineNumber: 159,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "w-full mb-8",
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$BookaCall$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 168,
+                                                                    lineNumber: 174,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 167,
+                                                                lineNumber: 173,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3070,31 +3124,7 @@ const PricingPage = ()=>{
                                                                         children: "Package includes:"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                        lineNumber: 171,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "flex items-start",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                                                className: "h-5 w-5 text-green-300 mr-2 flex-shrink-0"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                                lineNumber: 175,
-                                                                                columnNumber: 27
-                                                                            }, this),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                className: "text-sm text-blue-100",
-                                                                                children: "5 Page Website"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                                lineNumber: 176,
-                                                                                columnNumber: 27
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                        lineNumber: 174,
+                                                                        lineNumber: 177,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3109,7 +3139,7 @@ const PricingPage = ()=>{
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 className: "text-sm text-blue-100",
-                                                                                children: "VPS Server"
+                                                                                children: "10 Page Website"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
                                                                                 lineNumber: 182,
@@ -3133,7 +3163,7 @@ const PricingPage = ()=>{
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 className: "text-sm text-blue-100",
-                                                                                children: "High Security"
+                                                                                children: "20GB storagee"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
                                                                                 lineNumber: 188,
@@ -3157,7 +3187,7 @@ const PricingPage = ()=>{
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 className: "text-sm text-blue-100",
-                                                                                children: "Site Analysis Report"
+                                                                                children: "VPS Server"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
                                                                                 lineNumber: 194,
@@ -3181,7 +3211,7 @@ const PricingPage = ()=>{
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 className: "text-sm text-blue-100",
-                                                                                children: "10GB Storage"
+                                                                                children: "1 Free Solution"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
                                                                                 lineNumber: 200,
@@ -3205,7 +3235,7 @@ const PricingPage = ()=>{
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 className: "text-sm text-blue-100",
-                                                                                children: "1 Year Free Domain"
+                                                                                children: "Access to Premium Templates"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
                                                                                 lineNumber: 206,
@@ -3216,28 +3246,100 @@ const PricingPage = ()=>{
                                                                         fileName: "[project]/app/(main)/plans/page.tsx",
                                                                         lineNumber: 204,
                                                                         columnNumber: 25
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "flex items-start",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                                className: "h-5 w-5 text-green-300 mr-2 flex-shrink-0"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                                lineNumber: 211,
+                                                                                columnNumber: 27
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                className: "text-sm text-blue-100",
+                                                                                children: "Free SSL certificate"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                                lineNumber: 212,
+                                                                                columnNumber: 27
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                        lineNumber: 210,
+                                                                        columnNumber: 25
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "flex items-start",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                                className: "h-5 w-5 text-green-300 mr-2 flex-shrink-0"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                                lineNumber: 217,
+                                                                                columnNumber: 27
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                className: "text-sm text-blue-100",
+                                                                                children: "1 Custom Email Account"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                                lineNumber: 218,
+                                                                                columnNumber: 27
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                        lineNumber: 216,
+                                                                        columnNumber: 25
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "flex items-start",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                                className: "h-5 w-5 text-green-300 mr-2 flex-shrink-0"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                                lineNumber: 224,
+                                                                                columnNumber: 27
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                className: "text-sm text-blue-100",
+                                                                                children: "1 Year Free Domain"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                                lineNumber: 225,
+                                                                                columnNumber: 27
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                        lineNumber: 223,
+                                                                        columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 170,
+                                                                lineNumber: 176,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 152,
+                                                        lineNumber: 158,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 148,
+                                                lineNumber: 154,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                            lineNumber: 142,
+                                            lineNumber: 148,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3260,7 +3362,7 @@ const PricingPage = ()=>{
                                                                     children: "Elite"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 225,
+                                                                    lineNumber: 244,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3268,7 +3370,7 @@ const PricingPage = ()=>{
                                                                     children: "For enterprises and high-traffic websites."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 228,
+                                                                    lineNumber: 247,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3276,10 +3378,10 @@ const PricingPage = ()=>{
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: "text-5xl font-extrabold",
-                                                                            children: "$99.99"
+                                                                            children: "$59.97"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 232,
+                                                                            lineNumber: 251,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3287,31 +3389,31 @@ const PricingPage = ()=>{
                                                                             children: "/ month"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 235,
+                                                                            lineNumber: 254,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 231,
+                                                                    lineNumber: 250,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                            lineNumber: 224,
+                                                            lineNumber: 243,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "w-full mb-8",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$BookaCall$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 239,
+                                                                lineNumber: 258,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                            lineNumber: 238,
+                                                            lineNumber: 257,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3322,7 +3424,7 @@ const PricingPage = ()=>{
                                                                     children: "Package includes:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 242,
+                                                                    lineNumber: 261,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3332,7 +3434,7 @@ const PricingPage = ()=>{
                                                                             className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 246,
+                                                                            lineNumber: 265,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3340,13 +3442,13 @@ const PricingPage = ()=>{
                                                                             children: "Unlimited Pages"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 247,
+                                                                            lineNumber: 266,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 245,
+                                                                    lineNumber: 264,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3354,105 +3456,9 @@ const PricingPage = ()=>{
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
                                                                             className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 252,
-                                                                            columnNumber: 27
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "text-sm text-gray-600",
-                                                                            children: "Dedicated Server"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 253,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 251,
-                                                                    columnNumber: 25
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "flex items-start",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                                            className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 258,
-                                                                            columnNumber: 27
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "text-sm text-gray-600",
-                                                                            children: "Expert Security"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 259,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 257,
-                                                                    columnNumber: 25
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "flex items-start",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                                            className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 264,
-                                                                            columnNumber: 27
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "text-sm text-gray-600",
-                                                                            children: "Detailed Site Analysis"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 265,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 263,
-                                                                    columnNumber: 25
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "flex items-start",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                                            className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 270,
-                                                                            columnNumber: 27
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "text-sm text-gray-600",
-                                                                            children: "Priority Customer Care"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
                                                                             lineNumber: 271,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 269,
-                                                                    columnNumber: 25
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "flex items-start",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                                            className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 276,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3460,13 +3466,13 @@ const PricingPage = ()=>{
                                                                             children: "100GB Storage"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 277,
+                                                                            lineNumber: 272,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 275,
+                                                                    lineNumber: 270,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3476,7 +3482,127 @@ const PricingPage = ()=>{
                                                                             className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 282,
+                                                                            lineNumber: 277,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "text-sm text-gray-600",
+                                                                            children: "Dedicated Server"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                            lineNumber: 278,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                    lineNumber: 276,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "flex items-start",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                            className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                            lineNumber: 283,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "text-sm text-gray-600",
+                                                                            children: "Access to all solutions"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                            lineNumber: 284,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                    lineNumber: 282,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "flex items-start",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                            className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                            lineNumber: 289,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "text-sm text-gray-600",
+                                                                            children: "Custom UI/UX design"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                            lineNumber: 290,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                    lineNumber: 288,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "flex items-start",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                            className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                            lineNumber: 295,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "text-sm text-gray-600",
+                                                                            children: "Free SSL certificate"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                            lineNumber: 296,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                    lineNumber: 294,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "flex items-start",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                            className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                            lineNumber: 301,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "text-sm text-gray-600",
+                                                                            children: "5 Custom Email Accounts"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                            lineNumber: 302,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                    lineNumber: 300,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "flex items-start",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                                            className: "h-5 w-5 text-green-500 mr-2 flex-shrink-0"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                            lineNumber: 307,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3484,35 +3610,35 @@ const PricingPage = ()=>{
                                                                             children: "3 Years Free Domain"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 283,
+                                                                            lineNumber: 308,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 281,
+                                                                    lineNumber: 306,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                            lineNumber: 241,
+                                                            lineNumber: 260,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                    lineNumber: 223,
+                                                    lineNumber: 242,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 222,
+                                                lineNumber: 241,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                            lineNumber: 216,
+                                            lineNumber: 235,
                                             columnNumber: 17
                                         }, this)
                                     ]
@@ -3534,7 +3660,7 @@ const PricingPage = ()=>{
                                         children: "Why Choose Our Hosting?"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 321,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3547,7 +3673,7 @@ const PricingPage = ()=>{
                                                         className: "w-8 h-8 text-green-500 flex-shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 301,
+                                                        lineNumber: 326,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3557,7 +3683,7 @@ const PricingPage = ()=>{
                                                                 children: "Reliable Hosting"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 303,
+                                                                lineNumber: 328,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3565,19 +3691,19 @@ const PricingPage = ()=>{
                                                                 children: "From shared to dedicated, we've got the perfect hosting solution for your needs."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 304,
+                                                                lineNumber: 329,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 302,
+                                                        lineNumber: 327,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 300,
+                                                lineNumber: 325,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3587,7 +3713,7 @@ const PricingPage = ()=>{
                                                         className: "w-8 h-8 text-green-500 flex-shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 311,
+                                                        lineNumber: 336,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3597,7 +3723,7 @@ const PricingPage = ()=>{
                                                                 children: "Top-Notch Security"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 313,
+                                                                lineNumber: 338,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3605,19 +3731,19 @@ const PricingPage = ()=>{
                                                                 children: "We prioritize your website's security with advanced protection measures."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 314,
+                                                                lineNumber: 339,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 312,
+                                                        lineNumber: 337,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 310,
+                                                lineNumber: 335,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3627,7 +3753,7 @@ const PricingPage = ()=>{
                                                         className: "w-8 h-8 text-green-500 flex-shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 321,
+                                                        lineNumber: 346,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3637,7 +3763,7 @@ const PricingPage = ()=>{
                                                                 children: "Detailed Analytics"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 323,
+                                                                lineNumber: 348,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3645,19 +3771,19 @@ const PricingPage = ()=>{
                                                                 children: "Gain insights into your website's performance with our analysis tools."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 324,
+                                                                lineNumber: 349,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 322,
+                                                        lineNumber: 347,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 320,
+                                                lineNumber: 345,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3667,7 +3793,7 @@ const PricingPage = ()=>{
                                                         className: "w-8 h-8 text-green-500 flex-shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 331,
+                                                        lineNumber: 356,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3677,7 +3803,7 @@ const PricingPage = ()=>{
                                                                 children: "24/7 Support"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 333,
+                                                                lineNumber: 358,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3685,19 +3811,19 @@ const PricingPage = ()=>{
                                                                 children: "Our expert team is always ready to assist you with any issues or questions."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 334,
+                                                                lineNumber: 359,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 332,
+                                                        lineNumber: 357,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 330,
+                                                lineNumber: 355,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3707,7 +3833,7 @@ const PricingPage = ()=>{
                                                         className: "w-8 h-8 text-green-500 flex-shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 341,
+                                                        lineNumber: 366,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3717,7 +3843,7 @@ const PricingPage = ()=>{
                                                                 children: "Ample Storage"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 343,
+                                                                lineNumber: 368,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3725,19 +3851,19 @@ const PricingPage = ()=>{
                                                                 children: "Store all your website files and data with our generous storage options."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 344,
+                                                                lineNumber: 369,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 342,
+                                                        lineNumber: 367,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 340,
+                                                lineNumber: 365,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3747,7 +3873,7 @@ const PricingPage = ()=>{
                                                         className: "w-8 h-8 text-green-500 flex-shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 351,
+                                                        lineNumber: 376,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3757,7 +3883,7 @@ const PricingPage = ()=>{
                                                                 children: "Free Domain"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 353,
+                                                                lineNumber: 378,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3765,31 +3891,31 @@ const PricingPage = ()=>{
                                                                 children: "Get a free domain with our Growth and Elite packages to kickstart your online presence."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 354,
+                                                                lineNumber: 379,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 352,
+                                                        lineNumber: 377,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 350,
+                                                lineNumber: 375,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                        lineNumber: 299,
+                                        lineNumber: 324,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                lineNumber: 295,
+                                lineNumber: 320,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3802,7 +3928,7 @@ const PricingPage = ()=>{
                                             children: "Compare Plans"
                                         }, void 0, false, {
                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                            lineNumber: 366,
+                                            lineNumber: 391,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3819,7 +3945,7 @@ const PricingPage = ()=>{
                                                                     children: "Feature"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 373,
+                                                                    lineNumber: 398,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3827,7 +3953,7 @@ const PricingPage = ()=>{
                                                                     children: "Starter"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 374,
+                                                                    lineNumber: 399,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3835,7 +3961,7 @@ const PricingPage = ()=>{
                                                                     children: "Growth"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 377,
+                                                                    lineNumber: 402,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3843,18 +3969,18 @@ const PricingPage = ()=>{
                                                                     children: "Elite"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                    lineNumber: 380,
+                                                                    lineNumber: 405,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                            lineNumber: 372,
+                                                            lineNumber: 397,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 371,
+                                                        lineNumber: 396,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -3866,7 +3992,7 @@ const PricingPage = ()=>{
                                                                         children: item.feature
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                        lineNumber: 396,
+                                                                        lineNumber: 421,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3875,18 +4001,18 @@ const PricingPage = ()=>{
                                                                             className: "inline-block text-green-500"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 400,
+                                                                            lineNumber: 425,
                                                                             columnNumber: 35
                                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
                                                                             className: "inline-block text-red-400"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 402,
+                                                                            lineNumber: 427,
                                                                             columnNumber: 35
                                                                         }, this) : item.starter
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                        lineNumber: 397,
+                                                                        lineNumber: 422,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3895,18 +4021,18 @@ const PricingPage = ()=>{
                                                                             className: "inline-block text-green-500"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 411,
+                                                                            lineNumber: 436,
                                                                             columnNumber: 35
                                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
                                                                             className: "inline-block text-gray-400"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 413,
+                                                                            lineNumber: 438,
                                                                             columnNumber: 35
                                                                         }, this) : item.growth
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                        lineNumber: 408,
+                                                                        lineNumber: 433,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3915,51 +4041,51 @@ const PricingPage = ()=>{
                                                                             className: "inline-block text-green-500"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 422,
+                                                                            lineNumber: 447,
                                                                             columnNumber: 35
                                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
                                                                             className: "inline-block text-gray-400"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                            lineNumber: 424,
+                                                                            lineNumber: 449,
                                                                             columnNumber: 35
                                                                         }, this) : item.elite
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                        lineNumber: 419,
+                                                                        lineNumber: 444,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, index, true, {
                                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                                lineNumber: 388,
+                                                                lineNumber: 413,
                                                                 columnNumber: 27
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 385,
+                                                        lineNumber: 410,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 370,
+                                                lineNumber: 395,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/(main)/plans/page.tsx",
-                                            lineNumber: 369,
+                                            lineNumber: 394,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/(main)/plans/page.tsx",
-                                    lineNumber: 365,
+                                    lineNumber: 390,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                lineNumber: 364,
+                                lineNumber: 389,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3970,7 +4096,7 @@ const PricingPage = ()=>{
                                         children: "Frequently Asked Questions"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                        lineNumber: 441,
+                                        lineNumber: 466,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Accordion"], {
@@ -3987,20 +4113,20 @@ const PricingPage = ()=>{
                                                         children: "What's included in the website design?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 449,
+                                                        lineNumber: 474,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionContent"], {
                                                         children: "Our website design includes a custom-built responsive website tailored to your needs. We'll work with you to create a design that reflects your brand and meets your specific requirements."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 452,
+                                                        lineNumber: 477,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 445,
+                                                lineNumber: 470,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionItem"], {
@@ -4012,20 +4138,20 @@ const PricingPage = ()=>{
                                                         children: "Can I upgrade my plan later?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 464,
+                                                        lineNumber: 489,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionContent"], {
                                                         children: "Yes, you can upgrade your plan at any time. When you upgrade, you'll be charged the prorated difference for the remainder of your billing cycle. Your new features will be available immediately after upgrading."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 467,
+                                                        lineNumber: 492,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 460,
+                                                lineNumber: 485,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionItem"], {
@@ -4037,20 +4163,20 @@ const PricingPage = ()=>{
                                                         children: "What kind of customer support do you offer?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 479,
+                                                        lineNumber: 504,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionContent"], {
                                                         children: "We offer 24/7 customer support for all plans. Our Elite plan includes priority support, which means your queries will be addressed first. Support is available via email, live chat, and phone."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 482,
+                                                        lineNumber: 507,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 475,
+                                                lineNumber: 500,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionItem"], {
@@ -4062,20 +4188,20 @@ const PricingPage = ()=>{
                                                         children: "How does the free domain offer work?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 494,
+                                                        lineNumber: 519,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionContent"], {
                                                         children: "The free domain is included with our Growth (1 year) and Elite (3 years) packages. You can choose any available domain name with a .com, .net, or .org extension. After the free period, standard domain renewal rates will apply."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 497,
+                                                        lineNumber: 522,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 490,
+                                                lineNumber: 515,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionItem"], {
@@ -4087,32 +4213,32 @@ const PricingPage = ()=>{
                                                         children: "What security measures are in place to protect my website?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 509,
+                                                        lineNumber: 534,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionContent"], {
                                                         children: "We take security seriously. All plans include SSL certificates, regular malware scans, and DDoS protection. Our Growth and Elite plans feature advanced security measures including daily backups, two-factor authentication, and a web application firewall."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 512,
+                                                        lineNumber: 537,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 505,
+                                                lineNumber: 530,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                        lineNumber: 444,
+                                        lineNumber: 469,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                lineNumber: 440,
+                                lineNumber: 465,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -4133,12 +4259,12 @@ const PricingPage = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CTA$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/(main)/plans/page.tsx",
-                lineNumber: 525,
+                lineNumber: 550,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/(main)/plans/page.tsx",
-                lineNumber: 526,
+                lineNumber: 551,
                 columnNumber: 7
             }, this)
         ]

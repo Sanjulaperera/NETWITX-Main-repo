@@ -80,13 +80,13 @@ const PricingPage: React.FC = () => {
                     <CardContent className="p-8">
                       <div className="mb-8">
                         <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-500 mb-2">
-                          Starter
+                          Basic
                         </h3>
                         <p className="text-gray-900 mb-6">
                           Perfect for personal websites and small projects.
                         </p>
                         <div className="flex items-baseline">
-                          <span className="text-5xl font-extrabold">$9.99</span>
+                          <span className="text-5xl font-extrabold">$9.97</span>
                           <span className="text-gray-600 ml-1">/ month</span>
                         </div>
                       </div>
@@ -100,7 +100,13 @@ const PricingPage: React.FC = () => {
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
                           <span className="text-sm text-gray-600">
-                            1 Page Website
+                            2 Websites
+                          </span>
+                        </div>
+                        <div className="flex items-start">
+                          <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
+                          <span className="text-sm text-gray-600">
+                            5GB Storage
                           </span>
                         </div>
                         <div className="flex items-start">
@@ -112,7 +118,13 @@ const PricingPage: React.FC = () => {
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
                           <span className="text-sm text-gray-600">
-                            24/7 Customer Support
+                            Standard Security
+                          </span>
+                        </div>
+                        <div className="flex items-start">
+                          <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
+                          <span className="text-sm text-gray-600">
+                            Access to free templates
                           </span>
                         </div>
                         <div className="flex items-start">
@@ -124,13 +136,7 @@ const PricingPage: React.FC = () => {
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
                           <span className="text-sm text-gray-600">
-                            2GB Storage
-                          </span>
-                        </div>
-                        <div className="flex items-start">
-                          <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                          <span className="text-sm text-gray-600">
-                            Free SSL Certificate
+                            24/7 support
                           </span>
                         </div>
                       </div>
@@ -155,11 +161,11 @@ const PricingPage: React.FC = () => {
                           Growth
                         </h3>
                         <p className="text-white mb-6">
-                          Ideal for growing businesses and portfolios.
+                          Ideal for businesses and growing websites.
                         </p>
                         <div className="flex items-baseline">
                           <span className="text-5xl font-extrabold text-white">
-                            $24.99
+                            $24.97
                           </span>
                           <span className="text-blue-100 ml-1">/ month</span>
                         </div>
@@ -174,7 +180,13 @@ const PricingPage: React.FC = () => {
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-300 mr-2 flex-shrink-0" />
                           <span className="text-sm text-blue-100">
-                            5 Page Website
+                            10 Page Website
+                          </span>
+                        </div>
+                        <div className="flex items-start">
+                          <Check className="h-5 w-5 text-green-300 mr-2 flex-shrink-0" />
+                          <span className="text-sm text-blue-100">
+                            20GB storagee
                           </span>
                         </div>
                         <div className="flex items-start">
@@ -186,21 +198,28 @@ const PricingPage: React.FC = () => {
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-300 mr-2 flex-shrink-0" />
                           <span className="text-sm text-blue-100">
-                            High Security
+                            1 Free Solution
                           </span>
                         </div>
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-300 mr-2 flex-shrink-0" />
                           <span className="text-sm text-blue-100">
-                            Site Analysis Report
+                            Access to Premium Templates
                           </span>
                         </div>
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-300 mr-2 flex-shrink-0" />
                           <span className="text-sm text-blue-100">
-                            10GB Storage
+                            Free SSL certificate
                           </span>
                         </div>
+                        <div className="flex items-start">
+                          <Check className="h-5 w-5 text-green-300 mr-2 flex-shrink-0" />
+                          <span className="text-sm text-blue-100">
+                            1 Custom Email Account
+                          </span>
+                        </div>
+
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-300 mr-2 flex-shrink-0" />
                           <span className="text-sm text-blue-100">
@@ -230,7 +249,7 @@ const PricingPage: React.FC = () => {
                         </p>
                         <div className="flex items-baseline">
                           <span className="text-5xl font-extrabold">
-                            $99.99
+                            $59.97
                           </span>
                           <span className="text-gray-600 ml-1">/ month</span>
                         </div>
@@ -251,31 +270,37 @@ const PricingPage: React.FC = () => {
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
                           <span className="text-sm text-gray-600">
+                            100GB Storage
+                          </span>
+                        </div>
+                        <div className="flex items-start">
+                          <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
+                          <span className="text-sm text-gray-600">
                             Dedicated Server
                           </span>
                         </div>
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
                           <span className="text-sm text-gray-600">
-                            Expert Security
+                            Access to all solutions
                           </span>
                         </div>
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
                           <span className="text-sm text-gray-600">
-                            Detailed Site Analysis
+                            Custom UI/UX design
                           </span>
                         </div>
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
                           <span className="text-sm text-gray-600">
-                            Priority Customer Care
+                            Free SSL certificate
                           </span>
                         </div>
                         <div className="flex items-start">
                           <Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
                           <span className="text-sm text-gray-600">
-                            100GB Storage
+                            5 Custom Email Accounts
                           </span>
                         </div>
                         <div className="flex items-start">

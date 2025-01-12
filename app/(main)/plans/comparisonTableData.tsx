@@ -20,9 +20,27 @@ export const comparisonTableData: ComparisonItem[] = [
   },
   {
     feature: "Storage",
-    starter: "2GB",
-    growth: "10GB",
+    starter: "5GB",
+    growth: "20GB",
     elite: "100GB",
+  },
+  {
+    feature: "Website Templates",
+    starter: "Free",
+    growth: "Premium",
+    elite: "Customizable",
+  },
+  {
+    feature: "Solutions",
+    starter: false,
+    growth: "1 Free Solution",
+    elite: "All Solutions",
+  },
+  {
+    feature: "Free SSL Certificate",
+    starter: false,
+    growth: true,
+    elite: true,
   },
   {
     feature: "Security",
@@ -37,16 +55,28 @@ export const comparisonTableData: ComparisonItem[] = [
     elite: "Detailed Analysis",
   },
   {
-    feature: "Customer Support",
-    starter: "24/7 Standard",
-    growth: "24/7 Standard",
-    elite: "24/7 Priority",
-  },
-  {
     feature: "Free Domain",
     starter: false,
     growth: "1 Year",
     elite: "3 Years",
+  },
+  {
+    feature: "Custom Email",
+    starter: false,
+    growth: "1 Account",
+    elite: "5 Accounts",
+  },
+  {
+    feature: "Netwitx Ads",
+    starter: false,
+    growth: false,
+    elite: "Free Credits",
+  },
+  {
+    feature: "Customer Support",
+    starter: "24/7 Standard",
+    growth: "24/7 Standard",
+    elite: "24/7 Priority",
   },
 ];
 

@@ -2104,29 +2104,33 @@ const plans = [
     {
         name: "Basic",
         features: {
-            websites: "1 website",
+            websites: "2 website",
             storage: "5GB",
-            bandwidth: "50GB",
-            ssl: true,
+            hosting: "Shared Hosting",
+            solutions: "Add on",
+            ssl: false,
+            analysis: false,
             support: "24/7 support",
-            builder: "Basic builder",
+            template: "Free Templates",
             domain: false,
-            ip: false,
-            backups: false
+            design: false,
+            email: false
         }
     },
     {
-        name: "Pro",
+        name: "Growth",
         features: {
             websites: "10 websites",
             storage: "20GB",
-            bandwidth: "200GB",
+            hosting: "VPS Hosting",
+            solutions: "1 Free Solution",
             ssl: true,
-            support: "24/7 priority support",
-            builder: "Advanced builder",
+            analysis: true,
+            support: "24/7 Support",
+            template: "Premium Templates",
             domain: true,
-            ip: false,
-            backups: false
+            design: false,
+            email: false
         }
     },
     {
@@ -2134,13 +2138,15 @@ const plans = [
         features: {
             websites: "Unlimited",
             storage: "100GB",
-            bandwidth: "Unlimited",
+            hosting: "Dedicated Hosting",
+            solutions: "All Solutions",
             ssl: true,
-            support: "24/7 premium support",
-            builder: "Advanced builder",
+            analysis: true,
+            support: "24/7 Priority support",
+            template: "Further Customization",
             domain: true,
-            ip: true,
-            backups: true
+            design: true,
+            email: true
         }
     }
 ];
@@ -2156,9 +2162,14 @@ const features = [
         description: "Amount of disk space allocated for your website files"
     },
     {
-        key: "bandwidth",
-        label: "Bandwidth",
-        description: "Amount of data transfer allowed per month"
+        key: "hosting",
+        label: "Hosting",
+        description: "A service that stores your files on a server, making it accessible online."
+    },
+    {
+        key: "solutions",
+        label: "Solutions",
+        description: "Add varioty of solutions"
     },
     {
         key: "ssl",
@@ -2166,29 +2177,34 @@ const features = [
         description: "Secures your website with HTTPS, enhancing security and SEO"
     },
     {
+        key: "analysis",
+        label: "Site Analytics",
+        description: "Access to website traffic and performance reports"
+    },
+    {
         key: "support",
         label: "Customer Support",
         description: "Level of customer support provided"
     },
     {
-        key: "builder",
-        label: "Website Builder",
-        description: "Tool to create and customize your website without coding"
+        key: "template",
+        label: "Website Templates",
+        description: "Access to over 30+ templates and customize without coding"
     },
     {
         key: "domain",
-        label: "Custom Domain",
+        label: "Free Domain",
         description: "Ability to use your own domain name"
     },
     {
-        key: "ip",
-        label: "Dedicated IP",
-        description: "Unique IP address for your website, not shared with others"
+        key: "design",
+        label: "Custom Design",
+        description: "Customize your UI/UX design however you want"
     },
     {
-        key: "backups",
-        label: "Daily Backups",
-        description: "Automatic daily backups of your website data"
+        key: "email",
+        label: "Custom Email",
+        description: "One free custom email"
     }
 ];
 function ComparisonChart() {
@@ -2209,7 +2225,7 @@ function ComparisonChart() {
                                         children: "Feature"
                                     }, void 0, false, {
                                         fileName: "[project]/components/comparison-chart.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 92,
                                         columnNumber: 17
                                     }, this),
                                     plans.map((plan)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableHead"], {
@@ -2217,18 +2233,18 @@ function ComparisonChart() {
                                             children: plan.name
                                         }, plan.name, false, {
                                             fileName: "[project]/components/comparison-chart.tsx",
-                                            lineNumber: 84,
+                                            lineNumber: 94,
                                             columnNumber: 19
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/comparison-chart.tsx",
-                                lineNumber: 81,
+                                lineNumber: 91,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/comparison-chart.tsx",
-                            lineNumber: 80,
+                            lineNumber: 90,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableBody"], {
@@ -2247,12 +2263,12 @@ function ComparisonChart() {
                                                                     className: "h-4 w-4 text-blue-400"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/comparison-chart.tsx",
-                                                                    lineNumber: 98,
+                                                                    lineNumber: 108,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/comparison-chart.tsx",
-                                                                lineNumber: 97,
+                                                                lineNumber: 107,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tooltip$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TooltipContent"], {
@@ -2260,29 +2276,29 @@ function ComparisonChart() {
                                                                     children: feature.description
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/comparison-chart.tsx",
-                                                                    lineNumber: 101,
+                                                                    lineNumber: 111,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/comparison-chart.tsx",
-                                                                lineNumber: 100,
+                                                                lineNumber: 110,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/comparison-chart.tsx",
-                                                        lineNumber: 96,
+                                                        lineNumber: 106,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/comparison-chart.tsx",
-                                                lineNumber: 94,
+                                                lineNumber: 104,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/comparison-chart.tsx",
-                                            lineNumber: 93,
+                                            lineNumber: 103,
                                             columnNumber: 19
                                         }, this),
                                         plans.map((plan)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -2291,50 +2307,50 @@ function ComparisonChart() {
                                                     className: "h-5 w-5 text-blue-500 mx-auto"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/comparison-chart.tsx",
-                                                    lineNumber: 110,
+                                                    lineNumber: 120,
                                                     columnNumber: 27
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$minus$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Minus$3e$__["Minus"], {
                                                     className: "h-5 w-5 text-slate-400 mx-auto"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/comparison-chart.tsx",
-                                                    lineNumber: 112,
+                                                    lineNumber: 122,
                                                     columnNumber: 27
                                                 }, this) : plan.features[feature.key]
                                             }, `${plan.name}-${feature.key}`, false, {
                                                 fileName: "[project]/components/comparison-chart.tsx",
-                                                lineNumber: 107,
+                                                lineNumber: 117,
                                                 columnNumber: 21
                                             }, this))
                                     ]
                                 }, feature.key, true, {
                                     fileName: "[project]/components/comparison-chart.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 102,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/comparison-chart.tsx",
-                            lineNumber: 90,
+                            lineNumber: 100,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/comparison-chart.tsx",
-                    lineNumber: 79,
+                    lineNumber: 89,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/comparison-chart.tsx",
-                lineNumber: 78,
+                lineNumber: 88,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/comparison-chart.tsx",
-            lineNumber: 77,
+            lineNumber: 87,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/comparison-chart.tsx",
-        lineNumber: 76,
+        lineNumber: 86,
         columnNumber: 5
     }, this);
 }
@@ -2349,16 +2365,18 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/ui/button.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/ui/tabs.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$comparison$2d$chart$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/comparison-chart.tsx [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$globe$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/globe.js [app-ssr] (ecmascript) <export default as Globe>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$lock$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Lock$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/lock.js [app-ssr] (ecmascript) <export default as Lock>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$server$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Server$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/server.js [app-ssr] (ecmascript) <export default as Server>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wand$2d$sparkles$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wand2$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/wand-sparkles.js [app-ssr] (ecmascript) <export default as Wand2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$headphones$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__HeadphonesIcon$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/headphones.js [app-ssr] (ecmascript) <export default as HeadphonesIcon>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/check.js [app-ssr] (ecmascript) <export default as Check>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-ssr] (ecmascript) <export default as ArrowRight>");
-'use client';
+"use client";
+;
 ;
 ;
 ;
@@ -2367,50 +2385,53 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 const pricingPlans = [
     {
-        name: "Basic",
-        price: 9,
+        name: "Baisc",
+        price: 9.97,
         description: "Perfect for personal websites and small projects.",
         features: [
-            "1 website",
+            "2 website",
             "5GB storage",
-            "50GB bandwidth",
-            "Free SSL certificate",
+            "Shared Hosting",
+            "Access to free templates",
+            "Standard Security",
             "24/7 support"
         ]
     },
     {
-        name: "Pro",
-        price: 19,
+        name: "Growth",
+        price: 24.97,
         description: "Ideal for businesses and growing websites.",
         features: [
             "10 websites",
             "20GB storage",
-            "200GB bandwidth",
+            "1 Free Solution",
+            "VPS Hosting",
+            "Access to premium templates",
             "Free SSL certificate",
-            "24/7 priority support",
-            "Website builder",
-            "Custom domain"
+            "24/7 Support",
+            "Site analytics reports",
+            "1 Year free domain"
         ]
     },
     {
-        name: "Enterprise",
-        price: 49,
-        description: "For large organizations with advanced needs.",
+        name: "Elite",
+        price: 59.97,
+        description: "For enterprises and high-traffic websites.",
         features: [
             "Unlimited websites",
             "100GB storage",
-            "Unlimited bandwidth",
+            "Access to all solutions",
+            "Dedicated Hosting",
+            "Custom UI/UX design",
             "Free SSL certificate",
-            "24/7 premium support",
-            "Advanced website builder",
-            "Custom domain",
-            "Dedicated IP",
-            "Daily backups"
+            "24/7 priority support",
+            "Detailed site analytics",
+            "3 Year free domain"
         ]
     }
 ];
 function WebsiteHostingPricing() {
-    const [selectedPlan, setSelectedPlan] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("pro");
+    const [selectedPlan, setSelectedPlan] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("growth");
     const [showComparison, setShowComparison] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const currentPlan = pricingPlans.find((plan)=>plan.name.toLowerCase() === selectedPlan) || pricingPlans[1];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2423,7 +2444,7 @@ function WebsiteHostingPricing() {
                     children: "Our Hosting Plans"
                 }, void 0, false, {
                     fileName: "[project]/components/Pricing.tsx",
-                    lineNumber: 72,
+                    lineNumber: 83,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2437,7 +2458,7 @@ function WebsiteHostingPricing() {
                                     children: "Choose a hosting plan:"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Pricing.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2450,7 +2471,7 @@ function WebsiteHostingPricing() {
                                                 children: "All plans include:"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Pricing.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 93,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2459,24 +2480,24 @@ function WebsiteHostingPricing() {
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "flex items-center",
                                                         children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$globe$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe$3e$__["Globe"], {
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$lock$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Lock$3e$__["Lock"], {
                                                                 className: "w-5 h-5 mr-2 flex-shrink-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Pricing.tsx",
-                                                                lineNumber: 81,
+                                                                lineNumber: 98,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                children: "Custom domain"
+                                                                children: "100% Security"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Pricing.tsx",
-                                                                lineNumber: 82,
+                                                                lineNumber: 99,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Pricing.tsx",
-                                                        lineNumber: 80,
+                                                        lineNumber: 97,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2486,20 +2507,20 @@ function WebsiteHostingPricing() {
                                                                 className: "w-5 h-5 mr-2 flex-shrink-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Pricing.tsx",
-                                                                lineNumber: 85,
+                                                                lineNumber: 102,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: "Reliable web hosting"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Pricing.tsx",
-                                                                lineNumber: 86,
+                                                                lineNumber: 103,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Pricing.tsx",
-                                                        lineNumber: 84,
+                                                        lineNumber: 101,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2509,20 +2530,20 @@ function WebsiteHostingPricing() {
                                                                 className: "w-5 h-5 mr-2 flex-shrink-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Pricing.tsx",
-                                                                lineNumber: 89,
+                                                                lineNumber: 106,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: "AI creation tools"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Pricing.tsx",
-                                                                lineNumber: 90,
+                                                                lineNumber: 107,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Pricing.tsx",
-                                                        lineNumber: 88,
+                                                        lineNumber: 105,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2532,43 +2553,43 @@ function WebsiteHostingPricing() {
                                                                 className: "w-5 h-5 mr-2 flex-shrink-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Pricing.tsx",
-                                                                lineNumber: 93,
+                                                                lineNumber: 110,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: "24/7 customer care"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Pricing.tsx",
-                                                                lineNumber: 94,
+                                                                lineNumber: 111,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Pricing.tsx",
-                                                        lineNumber: 92,
+                                                        lineNumber: 109,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Pricing.tsx",
-                                                lineNumber: 79,
+                                                lineNumber: 96,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Pricing.tsx",
-                                        lineNumber: 77,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Pricing.tsx",
-                                    lineNumber: 76,
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Pricing.tsx",
-                            lineNumber: 74,
+                            lineNumber: 87,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2580,7 +2601,7 @@ function WebsiteHostingPricing() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Tabs"], {
                                             value: selectedPlan,
                                             onValueChange: setSelectedPlan,
-                                            defaultValue: "pro",
+                                            defaultValue: "growth",
                                             className: "w-full",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsList"], {
                                                 className: "grid grid-cols-3 bg-white",
@@ -2590,17 +2611,17 @@ function WebsiteHostingPricing() {
                                                         children: plan.name
                                                     }, plan.name.toLowerCase(), false, {
                                                         fileName: "[project]/components/Pricing.tsx",
-                                                        lineNumber: 111,
+                                                        lineNumber: 128,
                                                         columnNumber: 21
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Pricing.tsx",
-                                                lineNumber: 109,
+                                                lineNumber: 126,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Pricing.tsx",
-                                            lineNumber: 103,
+                                            lineNumber: 120,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2614,7 +2635,7 @@ function WebsiteHostingPricing() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Pricing.tsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 140,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2624,7 +2645,7 @@ function WebsiteHostingPricing() {
                                                             children: currentPlan.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Pricing.tsx",
-                                                            lineNumber: 125,
+                                                            lineNumber: 144,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2636,43 +2657,43 @@ function WebsiteHostingPricing() {
                                                                             className: "h-5 w-5 flex-shrink-0 text-blue-500"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Pricing.tsx",
-                                                                            lineNumber: 129,
+                                                                            lineNumber: 148,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             children: feature
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Pricing.tsx",
-                                                                            lineNumber: 130,
+                                                                            lineNumber: 149,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, index, true, {
                                                                     fileName: "[project]/components/Pricing.tsx",
-                                                                    lineNumber: 128,
+                                                                    lineNumber: 147,
                                                                     columnNumber: 23
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Pricing.tsx",
-                                                            lineNumber: 126,
+                                                            lineNumber: 145,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Pricing.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 143,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Pricing.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 139,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Pricing.tsx",
-                                    lineNumber: 102,
+                                    lineNumber: 119,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2689,7 +2710,7 @@ function WebsiteHostingPricing() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Pricing.tsx",
-                                                    lineNumber: 140,
+                                                    lineNumber: 159,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2700,7 +2721,7 @@ function WebsiteHostingPricing() {
                                                             children: "Starting at"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Pricing.tsx",
-                                                            lineNumber: 142,
+                                                            lineNumber: 163,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2713,25 +2734,25 @@ function WebsiteHostingPricing() {
                                                                     children: "/mo"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Pricing.tsx",
-                                                                    lineNumber: 143,
-                                                                    columnNumber: 89
+                                                                    lineNumber: 166,
+                                                                    columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Pricing.tsx",
-                                                            lineNumber: 143,
+                                                            lineNumber: 164,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Pricing.tsx",
-                                                    lineNumber: 141,
+                                                    lineNumber: 162,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Pricing.tsx",
-                                            lineNumber: 139,
+                                            lineNumber: 158,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -2740,47 +2761,61 @@ function WebsiteHostingPricing() {
                                             children: "Get started"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Pricing.tsx",
-                                            lineNumber: 147,
+                                            lineNumber: 171,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
-                                            variant: "outline",
-                                            className: "w-full text-blue-600 hover:text-blue-700 border-blue-200 hover:bg-blue-50",
+                                            variant: "link",
+                                            className: "w-full text-blue-600 hover:text-blue-700",
                                             onClick: ()=>setShowComparison(!showComparison),
                                             children: [
-                                                showComparison ? 'Hide comparison chart' : 'View comparison chart',
+                                                showComparison ? "Hide comparison chart" : "View comparison chart",
                                                 " ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                     className: "ml-2 h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Pricing.tsx",
-                                                    lineNumber: 156,
-                                                    columnNumber: 86
+                                                    lineNumber: 186,
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Pricing.tsx",
-                                            lineNumber: 151,
+                                            lineNumber: 178,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-sm text-slate-600",
-                                            children: "*Our 99.9% uptime guarantee ensures your website is always accessible. For more details on bandwidth and storage limits, please refer to our full terms of service."
-                                        }, void 0, false, {
+                                            children: [
+                                                "*Our 99.9% uptime guarantee ensures your website is always accessible. For more details about packages, please refer to",
+                                                " ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "/plans",
+                                                    className: "hover:text-blue-800 underline",
+                                                    children: "Pricing"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Pricing.tsx",
+                                                    lineNumber: 192,
+                                                    columnNumber: 17
+                                                }, this),
+                                                " ",
+                                                "."
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/components/Pricing.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 189,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Pricing.tsx",
-                                    lineNumber: 138,
+                                    lineNumber: 157,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Pricing.tsx",
-                            lineNumber: 101,
+                            lineNumber: 118,
                             columnNumber: 11
                         }, this),
                         showComparison && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2791,31 +2826,31 @@ function WebsiteHostingPricing() {
                                     children: "Plan Comparison"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Pricing.tsx",
-                                    lineNumber: 169,
+                                    lineNumber: 202,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "max-h-[600px] overflow-y-auto",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$comparison$2d$chart$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ComparisonChart"], {}, void 0, false, {
                                         fileName: "[project]/components/Pricing.tsx",
-                                        lineNumber: 171,
+                                        lineNumber: 206,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Pricing.tsx",
-                                    lineNumber: 170,
+                                    lineNumber: 205,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Pricing.tsx",
-                            lineNumber: 168,
+                            lineNumber: 201,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Pricing.tsx",
-                    lineNumber: 73,
+                    lineNumber: 86,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2830,28 +2865,28 @@ function WebsiteHostingPricing() {
                             children: "See All Pricing Options"
                         }, void 0, false, {
                             fileName: "[project]/components/Pricing.tsx",
-                            lineNumber: 183,
+                            lineNumber: 218,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Pricing.tsx",
-                        lineNumber: 177,
+                        lineNumber: 212,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Pricing.tsx",
-                    lineNumber: 176,
+                    lineNumber: 211,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Pricing.tsx",
-            lineNumber: 71,
+            lineNumber: 82,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Pricing.tsx",
-        lineNumber: 70,
+        lineNumber: 81,
         columnNumber: 5
     }, this);
 }

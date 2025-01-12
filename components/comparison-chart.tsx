@@ -5,42 +5,48 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 type PlanFeatures = {
   websites: string;
   storage: string;
-  bandwidth: string;
+  hosting: string;
+  solutions: string;
   ssl: boolean;
+  analysis: boolean;
   support: string;
-  builder: string;
+  template: string;
   domain: boolean;
-  ip: boolean;
-  backups: boolean;
+  design: boolean;
+  email: boolean;
 };
 
 const plans: { name: string; features: PlanFeatures }[] = [
   {
     name: "Basic",
     features: {
-      websites: "1 website",
+      websites: "2 website",
       storage: "5GB",
-      bandwidth: "50GB",
-      ssl: true,
+      hosting: "Shared Hosting",
+      solutions: "Add on",
+      ssl: false,
+      analysis: false,
       support: "24/7 support",
-      builder: "Basic builder",
+      template: "Free Templates",
       domain: false,
-      ip: false,
-      backups: false,
+      design: false,
+      email: false,
     }
   },
   {
-    name: "Pro",
+    name: "Growth",
     features: {
       websites: "10 websites",
       storage: "20GB",
-      bandwidth: "200GB",
+      hosting: "VPS Hosting",
+      solutions: "1 Free Solution",
       ssl: true,
-      support: "24/7 priority support",
-      builder: "Advanced builder",
+      analysis: true,
+      support: "24/7 Support",
+      template: "Premium Templates",
       domain: true,
-      ip: false,
-      backups: false,
+      design: false,
+      email: false,
     }
   },
   {
@@ -48,13 +54,15 @@ const plans: { name: string; features: PlanFeatures }[] = [
     features: {
       websites: "Unlimited",
       storage: "100GB",
-      bandwidth: "Unlimited",
+      hosting: "Dedicated Hosting",
+      solutions: "All Solutions",
       ssl: true,
-      support: "24/7 premium support",
-      builder: "Advanced builder",
+      analysis: true,
+      support: "24/7 Priority support",
+      template: "Further Customization",
       domain: true,
-      ip: true,
-      backups: true,
+      design: true,
+      email: true,
     }
   }
 ]
@@ -62,13 +70,15 @@ const plans: { name: string; features: PlanFeatures }[] = [
 const features = [
   { key: "websites", label: "Websites", description: "Number of websites you can host on this plan" },
   { key: "storage", label: "Storage", description: "Amount of disk space allocated for your website files" },
-  { key: "bandwidth", label: "Bandwidth", description: "Amount of data transfer allowed per month" },
+  { key: "hosting", label: "Hosting", description: "A service that stores your files on a server, making it accessible online." },
+  { key: "solutions", label: "Solutions", description: "Add varioty of solutions" },
   { key: "ssl", label: "Free SSL Certificate", description: "Secures your website with HTTPS, enhancing security and SEO" },
+  { key: "analysis", label: "Site Analytics", description: "Access to website traffic and performance reports" },
   { key: "support", label: "Customer Support", description: "Level of customer support provided" },
-  { key: "builder", label: "Website Builder", description: "Tool to create and customize your website without coding" },
-  { key: "domain", label: "Custom Domain", description: "Ability to use your own domain name" },
-  { key: "ip", label: "Dedicated IP", description: "Unique IP address for your website, not shared with others" },
-  { key: "backups", label: "Daily Backups", description: "Automatic daily backups of your website data" },
+  { key: "template", label: "Website Templates", description: "Access to over 30+ templates and customize without coding" },
+  { key: "domain", label: "Free Domain", description: "Ability to use your own domain name" },
+  { key: "design", label: "Custom Design", description: "Customize your UI/UX design however you want" },
+  { key: "email", label: "Custom Email", description: "One free custom email" },
 ]
 
 export function ComparisonChart() {

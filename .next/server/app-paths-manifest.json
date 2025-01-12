@@ -1,5 +1,9 @@
 {
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(main)/plans/page": "app/(main)/plans/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(main)/plans/page": "app/(main)/plans/page.js",
+  "/(main)/templates/page": "app/(main)/templates/page.js",
+  "/(main)/templates/[id]/page": "app/(main)/templates/[id]/page.js",
+  "/(main)/website-creator/page": "app/(main)/website-creator/page.js"
 }
