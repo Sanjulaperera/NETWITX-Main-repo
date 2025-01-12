@@ -4302,14 +4302,14 @@ const PricingPage = ()=>{
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
                                                         className: "text-left",
-                                                        children: "What's included in the website design?"
+                                                        children: "What is Growth plan?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
                                                         lineNumber: 474,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
-                                                        children: "Our website design includes a custom-built responsive website tailored to your needs. We'll work with you to create a design that reflects your brand and meets your specific requirements."
+                                                        children: "Our Growth plan is designed for businesses and growing websites. It includes up to 10 pages, 20GB storage, a VPS server, and access to all Premium templates. You'll also get a free SSL certificate, 1 custom email account, and a 1-year free domain."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
                                                         lineNumber: 477,
@@ -4327,23 +4327,37 @@ const PricingPage = ()=>{
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
                                                         className: "text-left",
-                                                        children: "Can I upgrade my plan later?"
+                                                        children: "What is the Elite plan?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 489,
+                                                        lineNumber: 490,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
-                                                        children: "Yes, you can upgrade your plan at any time. When you upgrade, you'll be charged the prorated difference for the remainder of your billing cycle. Your new features will be available immediately after upgrading."
-                                                    }, void 0, false, {
+                                                        children: [
+                                                            "Elite plan gives leading businesses the power to create, launch and manage fully-customized sites and webpages at scale. We offer powerful solutions built for enterprise-level marketing, multi-site management for franchises and commerce. With the help of the Enterprise team, plans are tailored to match your business's exact needs. Every customer receives dedicated account management, prioritized support and direct access to product experts to help you drive success for every project. Pricing varies based on project scope, required solutions and more.",
+                                                            " ",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                href: "/",
+                                                                className: "text-blue-500 underline",
+                                                                children: "Book a call"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/(main)/plans/page.tsx",
+                                                                lineNumber: 504,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            " ",
+                                                            "to find out more."
+                                                        ]
+                                                    }, void 0, true, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 492,
+                                                        lineNumber: 493,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 485,
+                                                lineNumber: 486,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionItem"], {
@@ -4352,23 +4366,23 @@ const PricingPage = ()=>{
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
                                                         className: "text-left",
-                                                        children: "What kind of customer support do you offer?"
+                                                        children: "Can I upgrade my plan later?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 504,
+                                                        lineNumber: 515,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
-                                                        children: "We offer 24/7 customer support for all plans. Our Elite plan includes priority support, which means your queries will be addressed first. Support is available via email, live chat, and phone."
+                                                        children: "Yes, you can upgrade your plan at any time. When you upgrade, you'll be charged the prorated difference for the remainder of your billing cycle. Your new features will be available immediately after upgrading."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 507,
+                                                        lineNumber: 518,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 500,
+                                                lineNumber: 511,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionItem"], {
@@ -4380,20 +4394,20 @@ const PricingPage = ()=>{
                                                         children: "How does the free domain offer work?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 519,
+                                                        lineNumber: 530,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
                                                         children: "The free domain is included with our Growth (1 year) and Elite (3 years) packages. You can choose any available domain name with a .com, .net, or .org extension. After the free period, standard domain renewal rates will apply."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 522,
+                                                        lineNumber: 533,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 515,
+                                                lineNumber: 526,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionItem"], {
@@ -4402,29 +4416,69 @@ const PricingPage = ()=>{
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
                                                         className: "text-left",
-                                                        children: "What security measures are in place to protect my website?"
+                                                        children: "Can I use my own domain name?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 534,
+                                                        lineNumber: 545,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
-                                                        children: "We take security seriously. All plans include SSL certificates, regular malware scans, and DDoS protection. Our Growth and Elite plans feature advanced security measures including daily backups, two-factor authentication, and a web application firewall."
+                                                        children: "Yes, you can use your own domain name with any of our packages. If you already own a domain, you can easily connect it to your website by updating your domain's DNS records. Don't worry we'll guide you through the process."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/plans/page.tsx",
-                                                        lineNumber: 537,
+                                                        lineNumber: 548,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(main)/plans/page.tsx",
-                                                lineNumber: 530,
+                                                lineNumber: 541,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionItem"], {
+                                                value: "item-6",
+                                                className: "border rounded-lg px-6",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
+                                                        className: "text-left",
+                                                        children: "What security measures are in place to protect my website?"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/(main)/plans/page.tsx",
+                                                        lineNumber: 561,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
+                                                        children: "We take security seriously. All plans include regular malware scans, and DDoS protection. Our Growth and Elite plans feature free SSL and advanced security measures including daily backups, two-factor authentication, and a web application firewall."
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/(main)/plans/page.tsx",
+                                                        lineNumber: 564,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/(main)/plans/page.tsx",
+                                                lineNumber: 557,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/(main)/plans/page.tsx",
                                         lineNumber: 469,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mt-12 text-center",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                            className: "rounded-lg bg-blue-600 text-white hover:bg-blue-500 px-8 py-3 text-lg font-semibold transition-colors duration-300",
+                                            children: "Got a Question? Contact Us"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/plans/page.tsx",
+                                            lineNumber: 574,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/(main)/plans/page.tsx",
+                                        lineNumber: 573,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -4451,12 +4505,12 @@ const PricingPage = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CTA$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/(main)/plans/page.tsx",
-                lineNumber: 550,
+                lineNumber: 582,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/(main)/plans/page.tsx",
-                lineNumber: 551,
+                lineNumber: 583,
                 columnNumber: 7
             }, this)
         ]

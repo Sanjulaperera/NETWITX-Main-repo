@@ -472,18 +472,44 @@ const PricingPage: React.FC = () => {
                   className="border rounded-lg px-6"
                 >
                   <AccordionTrigger className="text-left">
-                    What&apos;s included in the website design?
+                    What is Growth plan?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Our website design includes a custom-built responsive
-                    website tailored to your needs. We&apos;ll work with you to
-                    create a design that reflects your brand and meets your
-                    specific requirements.
+                    Our Growth plan is designed for businesses and growing
+                    websites. It includes up to 10 pages, 20GB storage, a VPS
+                    server, and access to all Premium templates. You&apos;ll
+                    also get a free SSL certificate, 1 custom email account, and
+                    a 1-year free domain.
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem
                   value="item-2"
+                  className="border rounded-lg px-6"
+                >
+                  <AccordionTrigger className="text-left">
+                    What is the Elite plan?
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Elite plan gives leading businesses the power to create,
+                    launch and manage fully-customized sites and webpages at
+                    scale. We offer powerful solutions built for
+                    enterprise-level marketing, multi-site management for
+                    franchises and commerce. With the help of the Enterprise
+                    team, plans are tailored to match your business&apos;s exact
+                    needs. Every customer receives dedicated account management,
+                    prioritized support and direct access to product experts to
+                    help you drive success for every project. Pricing varies
+                    based on project scope, required solutions and more.{" "}
+                    <Link href="/" className="text-blue-500 underline">
+                      Book a call
+                    </Link>{" "}
+                    to find out more.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem
+                  value="item-3"
                   className="border rounded-lg px-6"
                 >
                   <AccordionTrigger className="text-left">
@@ -494,21 +520,6 @@ const PricingPage: React.FC = () => {
                     upgrade, you&apos;ll be charged the prorated difference for
                     the remainder of your billing cycle. Your new features will
                     be available immediately after upgrading.
-                  </AccordionContent>
-                </AccordionItem>
-
-                <AccordionItem
-                  value="item-3"
-                  className="border rounded-lg px-6"
-                >
-                  <AccordionTrigger className="text-left">
-                    What kind of customer support do you offer?
-                  </AccordionTrigger>
-                  <AccordionContent>
-                    We offer 24/7 customer support for all plans. Our Elite plan
-                    includes priority support, which means your queries will be
-                    addressed first. Support is available via email, live chat,
-                    and phone.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -532,17 +543,38 @@ const PricingPage: React.FC = () => {
                   className="border rounded-lg px-6"
                 >
                   <AccordionTrigger className="text-left">
+                    Can I use my own domain name?
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Yes, you can use your own domain name with any of our
+                    packages. If you already own a domain, you can easily
+                    connect it to your website by updating your domain&apos;s
+                    DNS records. Don&apos;t worry we&apos;ll guide you through
+                    the process.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem
+                  value="item-6"
+                  className="border rounded-lg px-6"
+                >
+                  <AccordionTrigger className="text-left">
                     What security measures are in place to protect my website?
                   </AccordionTrigger>
                   <AccordionContent>
-                    We take security seriously. All plans include SSL
-                    certificates, regular malware scans, and DDoS protection.
-                    Our Growth and Elite plans feature advanced security
-                    measures including daily backups, two-factor authentication,
-                    and a web application firewall.
+                    We take security seriously. All plans include regular
+                    malware scans, and DDoS protection. Our Growth and Elite
+                    plans feature free SSL and advanced security measures
+                    including daily backups, two-factor authentication, and a
+                    web application firewall.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
+              <div className="mt-12 text-center">
+              <Button className="rounded-lg bg-blue-600 text-white hover:bg-blue-500 px-8 py-3 text-lg font-semibold transition-colors duration-300">
+                Got a Question? Contact Us
+              </Button>
+            </div>
             </div>
           </div>
         </main>
