@@ -9,7 +9,7 @@
     "static/chunks/node_modules_next_fb9583._.js",
     "static/chunks/node_modules_motion_dist_es_85a36e._.js",
     "static/chunks/node_modules_framer-motion_dist_es_ec36d6._.js",
-    "static/chunks/node_modules_dfc092._.js"
+    "static/chunks/node_modules_a592f8._.js"
   ],
   "source": "dynamic"
 });
