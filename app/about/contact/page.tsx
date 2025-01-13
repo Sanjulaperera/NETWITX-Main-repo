@@ -1,116 +1,136 @@
-'use client'
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { MainNav } from "@/components/mainHeader"
-import CTA from "@/components/CTA"
-import Footer from "@/components/Footer"
+import { MessageCircle, HeadphonesIcon, Phone, Calendar } from "lucide-react";
+import { motion } from "framer-motion";
+import { ContactCard } from "./contact-card";
+import { MainNav } from "@/components/mainHeader";
+import CTA from "@/components/CTA";
+import Footer from "@/components/Footer";
+import { SocialSection } from "./social-section";
+import { GridPattern } from "@/components/ui/grid-pattern";
+import { cn } from "@/lib/utils";
 
-export default function ContactForm() {
-  const [isSubmitting, setIsSubmitting] = useState(false)
-
-  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault()
-    setIsSubmitting(true)
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000))
-    setIsSubmitting(false)
-  }
+export default function ContactPage() {
+  const contactMethods = [
+    {
+      title: "Chat to founder",
+      description: "Speak with Founder.",
+      icon: MessageCircle,
+      link: {
+        href: "mailto:sanjula.perera@netwitx.com",
+        label: "founder@netwitx.com",
+      },
+    },
+    {
+      title: "Chat to support",
+      description: "We're here to help.",
+      icon: HeadphonesIcon,
+      link: {
+        href: "mailto:contact@netwitx.com",
+        label: "contact@netwitx.com",
+      },
+    },
+    {
+      title: "Virtual meeting",
+      description: "Schedule a virtual call.",
+      icon: Calendar,
+      link: {
+        href: "#",
+        label: "Book a meeting",
+      },
+    },
+    {
+      title: "Call us",
+      description: "Mon-Fri | 8am to 5pm.",
+      icon: Phone,
+      link: {
+        href: "tel:+61475426888",
+        label: "+61 475 426 888",
+      },
+    },
+  ];
 
   return (
-    <>
-    <MainNav />
-    <div className="container mx-auto px-4 py-12">
-      <div className="grid lg:grid-cols-2 gap-12 items-start max-w-6xl mx-auto">
-        <div className="space-y-8">
-          <div className="space-y-4">
-            <h1 className="text-4xl font-bold tracking-tight">Contact Us</h1>
-            <p className="text-gray-500">
-              Please reach out to us and we will get back to you at the speed of light.
-            </p>
-          </div>
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <div className="space-y-2">
-              <Label htmlFor="name">Full Name</Label>
-              <Input
-                id="name"
-                placeholder="John Doe"
-                required
-                className="bg-white"
-              />
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="email">Email address</Label>
-              <Input
-                id="email"
-                placeholder="hello@johndoe.com"
-                type="email"
-                required
-                className="bg-white"
-              />
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="company">Company</Label>
-              <Input
-                id="company"
-                placeholder="Netwitx.com"
-                className="bg-white"
-              />
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="message">Message</Label>
-              <Textarea
-                id="message"
-                placeholder="Enter your message here"
-                required
-                className="min-h-[150px] bg-white"
-              />
-            </div>
-            <Button
-              type="submit"
-              className="w-full bg-black text-white hover:bg-black/90"
-              disabled={isSubmitting}
+    <div className="min-h-screen bg-background">
+      <MainNav />
+      <main>
+        <motion.div
+          className="container mx-auto px-4 py-16 md:py-24"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <div className="mx-auto max-w-[58rem] text-center">
+            <motion.h1
+              className="mb-4 text-6xl font-bold tracking-tight sm:text-5xl md:text-6xl"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
             >
-              {isSubmitting ? "Submitting..." : "Submit"}
-            </Button>
-          </form>
-        </div>
-        <div className="lg:sticky lg:top-8 space-y-6 lg:flex lg:flex-col lg:justify-center lg:items-center lg:min-h-[calc(100vh-8rem)]">
-          <div className="flex -space-x-2 overflow-hidden justify-center">
-            {[...Array(6)].map((_, i) => (
-              <div
-                key={i}
-                className="inline-block h-12 w-12 rounded-full ring-4 ring-white"
+              Contact our friendly team
+            </motion.h1>
+            <motion.p
+              className="text-xl text-muted-foreground"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 }}
+            >
+              Let us know how we can help.
+            </motion.p>
+          </div>
+          <motion.div
+            className="mx-auto mt-16 grid max-w-5xl gap-6 sm:grid-cols-2 lg:grid-cols-4"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: {
+                  staggerChildren: 0.1,
+                },
+              },
+            }}
+          >
+            {contactMethods.map((method) => (
+              <motion.div
+                key={method.title}
+                className="z-10"
+                variants={{
+                  hidden: { opacity: 0, y: 20 },
+                  visible: { opacity: 1, y: 0 },
+                }}
               >
-                <Image
-                  src={`/placeholder.svg?height=48&width=48`}
-                  alt={`User ${i + 1}`}
-                  width={48}
-                  height={48}
-                  className="rounded-full"
-                />
-              </div>
+                <ContactCard {...method} />
+              </motion.div>
             ))}
-          </div>
-          <div className="text-center space-y-4">
-            <h2 className="text-2xl font-semibold">
-              Every AI is used by thousands of users
-            </h2>
-            <p className="text-gray-500">
-              With lots of AI applications around, Everything AI stands out with its state of
-              the art Shitposting capabilities.
-            </p>
-          </div>
-        </div>
-      </div>
+          </motion.div>
+        </motion.div>
+        <GridPattern
+          squares={[
+            [4, 4],
+            [5, 1],
+            [8, 2],
+            [5, 3],
+            [5, 5],
+            [10, 10],
+            [12, 15],
+            [17, 10],
+            [10, 15],
+            [12, 11],
+            [7, 9],
+            [18, 13],
+          ]}
+          className={cn(
+            "[mask-image:radial-gradient(400px_circle_at_center,white,transparent)]",
+            "inset-x-0 inset-y-[-20%] h-[60rem] skew-y-12"
+          )}
+        />
+        <SocialSection />
+        <CTA />
+        <Footer />
+      </main>
     </div>
-    <CTA />
-    <Footer />
-    </>
-  )
+  );
 }
-
