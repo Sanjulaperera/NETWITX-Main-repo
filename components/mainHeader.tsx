@@ -39,7 +39,7 @@ import BookACall from "./BookaCall";
 const productsLinks = [
   {
     title: "Web Design",
-    href: "/comingsoon",
+    href: "/website/design",
     description: "Design your site with user-friendly and intuitive features.",
   },
   {
@@ -111,12 +111,12 @@ const solutionLinks = [
 const resourcesLinks = [
   {
     title: "Netwitx Blog",
-    href: "/solutions",
+    href: "/blog",
     description: "Read the latest articles on web development.",
   },
   {
     title: "Help Center",
-    href: "/solutions",
+    href: "/support",
     description: "Find answers to common questions.",
   },
   {
