@@ -7,6 +7,7 @@ import { Clock, Calendar, ArrowRight } from 'lucide-react'
 import { motion, HTMLMotionProps } from 'framer-motion'
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
+import LoadingScreen from '@/components/LoadingScreen'
 
 interface Author {
   name: string
@@ -94,7 +95,7 @@ export default function BlogPost({ slug }: BlogPostProps) {
   }, [slug])
 
   if (!postData || !content) {
-    return <div>Loading...</div>
+    return <div><LoadingScreen/></div>
   }
 
   return (

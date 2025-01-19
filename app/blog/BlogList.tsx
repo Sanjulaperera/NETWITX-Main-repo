@@ -24,11 +24,14 @@ interface Post {
     author: Author
   }
 }
+interface BlogListProps {
+  initialPosts: Post[]
+}
 
-export default function BlogList() {
-  const [posts, setPosts] = useState<Post[]>([])
+export default function BlogList({ initialPosts }: BlogListProps) {
+  const [posts, setPosts] = useState<Post[]>(initialPosts)
   const [searchTerm, setSearchTerm] = useState('')
-  const [searchResults, setSearchResults] = useState<Post[]>([])
+  const [searchResults, setSearchResults] = useState<Post[]>(initialPosts)
 
   useEffect(() => {
     const fetchPosts = async () => {
@@ -38,8 +41,10 @@ export default function BlogList() {
       setSearchResults(data)
     }
 
-    fetchPosts()
-  }, [])
+    if (initialPosts.length === 0) {
+      fetchPosts()
+    }
+  }, [initialPosts])
 
   const handleSearch = () => {
     const results = posts.filter(post =>

@@ -2,7 +2,7 @@ import { Suspense } from 'react'
 import Link from 'next/link'
 import { getBlogPosts } from './BlogPosts'
 import BlogList from './BlogList'
-import { MainNav } from '@/components/mainHeader'
+import LoadingScreen from '@/components/LoadingScreen'
 
 export const metadata = {
   title: 'Blog | NETWITX',
@@ -27,7 +27,7 @@ export default async function BlogPage() {
           </Link>
         </div>
 
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<LoadingScreen/>}>
           <BlogList initialPosts={posts} />
         </Suspense>
       </div>
