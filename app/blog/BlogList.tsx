@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { Search, Calendar } from 'lucide-react'
 
+
 interface Author {
   name: string
   image: string
@@ -60,12 +61,12 @@ export default function BlogList() {
           <input
             type="text"
             placeholder="Search posts..."
-            className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300 bg-white bg-opacity-80 backdrop-blur-sm"
+            className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-300 bg-white bg-opacity-80 backdrop-blur-sm"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           <button
-            className="bg-blue-600 text-white px-4 py-2 rounded-r-lg hover:bg-blue-700 transition-colors duration-200"
+            className="bg-green-600 text-white px-4 py-2 rounded-r-lg hover:bg-green-700 transition-colors duration-200"
             onClick={handleSearch}
           >
             Search

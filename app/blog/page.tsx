@@ -2,6 +2,7 @@ import { Suspense } from 'react'
 import Link from 'next/link'
 import { getBlogPosts } from './BlogPosts'
 import BlogList from './BlogList'
+import { MainNav } from '@/components/mainHeader'
 
 export const metadata = {
   title: 'Blog | NETWITX',
@@ -12,7 +13,7 @@ export default async function BlogPage() {
   const posts = await getBlogPosts()
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen">
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="flex justify-between items-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
@@ -20,7 +21,7 @@ export default async function BlogPage() {
           </h1>
           <Link 
             href="/"
-            className="text-blue-600 hover:text-blue-800 transition-colors duration-200"
+            className="text-green-600 hover:text-breen-800 transition-colors duration-200"
           >
             ← Back to Home
           </Link>
