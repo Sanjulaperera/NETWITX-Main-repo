@@ -1,4 +1,4 @@
-// File: /Users/sanjula/Documents/NETWITX-Main-repo/app/about/us/page.tsx
+// File: C:\Users\Irangi Wathsala\Desktop\github\NETWITX-Main-repo\app\about\us\page.tsx
 import * as entry from '../../../../../app/about/us/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

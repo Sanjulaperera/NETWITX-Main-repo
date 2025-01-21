@@ -1,4 +1,4 @@
-// File: /Users/sanjula/Documents/NETWITX-Main-repo/app/(main)/website-creator/page.tsx
+// File: C:\Users\Irangi Wathsala\Desktop\github\NETWITX-Main-repo\app\(main)\website-creator\page.tsx
 import * as entry from '../../../../../app/(main)/website-creator/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
