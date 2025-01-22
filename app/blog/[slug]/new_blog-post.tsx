@@ -28,15 +28,19 @@ const components = {
       transition={{ duration: 0.5, delay: 0.1 }}
     />
   ),
+  
   p: (props: ComponentProps<typeof motion.p>) => (
     <motion.p
       {...props}
-      className="my-4 text-gray-700 leading-relaxed"
+      className={`my-4 text-gray-700 leading-relaxed ${props.className || ''}`}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.2 }}
     />
+
+    
   ),
+  
 };
 
 export default components;
