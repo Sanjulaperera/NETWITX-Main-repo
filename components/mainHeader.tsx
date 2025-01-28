@@ -104,7 +104,7 @@ const solutionLinks = [
   {
     title: "All Web Features",
     href: "/solutions",
-    description: "Exolore all the features of our web solutions.",
+    description: "Explore all the features of our web solutions.",
   },
 ];
 
@@ -188,7 +188,7 @@ export function MainNav() {
                 </Link>
                 <Collapsible>
                   <CollapsibleTrigger className="flex items-center justify-between w-full text-lg font-semibold">
-                    products
+                    Product
                     <ChevronDown className="h-4 w-4" />
                   </CollapsibleTrigger>
                   <CollapsibleContent className="mt-2">
@@ -196,7 +196,7 @@ export function MainNav() {
                       {productsLinks.map((link) => (
                         <Link
                           key={link.title}
-                          href="#"
+                          href={link.href}
                           className="text-sm text-muted-foreground hover:text-primary"
                         >
                           {link.title}
@@ -205,14 +205,49 @@ export function MainNav() {
                     </div>
                   </CollapsibleContent>
                 </Collapsible>
-                <Link href="#" className="text-lg font-semibold">
-                  Marketplace
+                <Collapsible>
+                  <CollapsibleTrigger className="flex items-center justify-between w-full text-lg font-semibold">
+                    Solutions
+                    <ChevronDown className="h-4 w-4" />
+                  </CollapsibleTrigger>
+                  <CollapsibleContent className="mt-2">
+                    <div className="grid gap-2 pl-4">
+                      {solutionLinks.map((link) => (
+                        <Link
+                          key={link.title}
+                          href={link.href}
+                          className="text-sm text-muted-foreground hover:text-primary"
+                        >
+                          {link.title}
+                        </Link>
+                      ))}
+                    </div>
+                  </CollapsibleContent>
+                </Collapsible>
+                <Collapsible>
+                  <CollapsibleTrigger className="flex items-center justify-between w-full text-lg font-semibold">
+                    Resources
+                    <ChevronDown className="h-4 w-4" />
+                  </CollapsibleTrigger>
+                  <CollapsibleContent className="mt-2">
+                    <div className="grid gap-2 pl-4">
+                      {resourcesLinks.map((link) => (
+                        <Link
+                          key={link.title}
+                          href={link.href}
+                          className="text-sm text-muted-foreground hover:text-primary"
+                        >
+                          {link.title}
+                        </Link>
+                      ))}
+                    </div>
+                  </CollapsibleContent>
+                </Collapsible>
+                <Link href="/plans" className="text-lg font-semibold">
+                  Pricing
                 </Link>
-                <Link href="#" className="text-lg font-semibold">
-                  Resources
-                </Link>
-                <Link href="#" className="text-lg font-semibold">
-                  Contact
+                <Link href="/about/us" className="text-lg font-semibold">
+                  About Us
                 </Link>
               </div>
               <div className="mt-auto">
