@@ -1274,7 +1274,7 @@ const solutionLinks = [
     {
         title: "All Web Features",
         href: "/solutions",
-        description: "Exolore all the features of our web solutions."
+        description: "Explore all the features of our web solutions."
     }
 ];
 const resourcesLinks = [
@@ -1412,7 +1412,7 @@ function MainNav() {
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$collapsible$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CollapsibleTrigger"], {
                                                         className: "flex items-center justify-between w-full text-lg font-semibold",
                                                         children: [
-                                                            "products",
+                                                            "Product",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                                                 className: "h-4 w-4"
                                                             }, void 0, false, {
@@ -1431,7 +1431,7 @@ function MainNav() {
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "grid gap-2 pl-4",
                                                             children: productsLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                    href: "#",
+                                                                    href: link.href,
                                                                     className: "text-sm text-muted-foreground hover:text-primary",
                                                                     children: link.title
                                                                 }, link.title, false, {
@@ -1455,31 +1455,118 @@ function MainNav() {
                                                 lineNumber: 189,
                                                 columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "#",
-                                                className: "text-lg font-semibold",
-                                                children: "Marketplace"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$collapsible$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Collapsible"], {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$collapsible$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CollapsibleTrigger"], {
+                                                        className: "flex items-center justify-between w-full text-lg font-semibold",
+                                                        children: [
+                                                            "Solutions",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
+                                                                className: "h-4 w-4"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/mainHeader.tsx",
+                                                                lineNumber: 211,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/mainHeader.tsx",
+                                                        lineNumber: 209,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$collapsible$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CollapsibleContent"], {
+                                                        className: "mt-2",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "grid gap-2 pl-4",
+                                                            children: solutionLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    href: link.href,
+                                                                    className: "text-sm text-muted-foreground hover:text-primary",
+                                                                    children: link.title
+                                                                }, link.title, false, {
+                                                                    fileName: "[project]/components/mainHeader.tsx",
+                                                                    lineNumber: 216,
+                                                                    columnNumber: 25
+                                                                }, this))
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/mainHeader.tsx",
+                                                            lineNumber: 214,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/mainHeader.tsx",
+                                                        lineNumber: 213,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/components/mainHeader.tsx",
                                                 lineNumber: 208,
                                                 columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "#",
-                                                className: "text-lg font-semibold",
-                                                children: "Resources"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$collapsible$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Collapsible"], {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$collapsible$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CollapsibleTrigger"], {
+                                                        className: "flex items-center justify-between w-full text-lg font-semibold",
+                                                        children: [
+                                                            "Resources",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
+                                                                className: "h-4 w-4"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/mainHeader.tsx",
+                                                                lineNumber: 230,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/mainHeader.tsx",
+                                                        lineNumber: 228,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$collapsible$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CollapsibleContent"], {
+                                                        className: "mt-2",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "grid gap-2 pl-4",
+                                                            children: resourcesLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    href: link.href,
+                                                                    className: "text-sm text-muted-foreground hover:text-primary",
+                                                                    children: link.title
+                                                                }, link.title, false, {
+                                                                    fileName: "[project]/components/mainHeader.tsx",
+                                                                    lineNumber: 235,
+                                                                    columnNumber: 25
+                                                                }, this))
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/mainHeader.tsx",
+                                                            lineNumber: 233,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/mainHeader.tsx",
+                                                        lineNumber: 232,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                lineNumber: 211,
+                                                lineNumber: 227,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "#",
+                                                href: "/plans",
                                                 className: "text-lg font-semibold",
-                                                children: "Contact"
+                                                children: "Pricing"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                lineNumber: 214,
+                                                lineNumber: 246,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/about/us",
+                                                className: "text-lg font-semibold",
+                                                children: "About Us"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/mainHeader.tsx",
+                                                lineNumber: 249,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -1504,24 +1591,24 @@ function MainNav() {
                                                                     children: "🇦🇺"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/mainHeader.tsx",
-                                                                    lineNumber: 223,
+                                                                    lineNumber: 258,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 "English"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/mainHeader.tsx",
-                                                            lineNumber: 222,
+                                                            lineNumber: 257,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                        lineNumber: 221,
+                                                        lineNumber: 256,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/mainHeader.tsx",
-                                                    lineNumber: 220,
+                                                    lineNumber: 255,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -1534,35 +1621,35 @@ function MainNav() {
                                                                     children: "🇦🇺"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/mainHeader.tsx",
-                                                                    lineNumber: 231,
+                                                                    lineNumber: 266,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 "English"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/mainHeader.tsx",
-                                                            lineNumber: 230,
+                                                            lineNumber: 265,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                        lineNumber: 229,
+                                                        lineNumber: 264,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/mainHeader.tsx",
-                                                    lineNumber: 228,
+                                                    lineNumber: 263,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/mainHeader.tsx",
-                                            lineNumber: 219,
+                                            lineNumber: 254,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/mainHeader.tsx",
-                                        lineNumber: 218,
+                                        lineNumber: 253,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1577,12 +1664,12 @@ function MainNav() {
                                                         className: "h-5 w-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                        lineNumber: 244,
+                                                        lineNumber: 279,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/mainHeader.tsx",
-                                                    lineNumber: 240,
+                                                    lineNumber: 275,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1592,12 +1679,12 @@ function MainNav() {
                                                         className: "h-5 w-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                        lineNumber: 250,
+                                                        lineNumber: 285,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/mainHeader.tsx",
-                                                    lineNumber: 246,
+                                                    lineNumber: 281,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1607,23 +1694,23 @@ function MainNav() {
                                                         className: "h-5 w-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                        lineNumber: 256,
+                                                        lineNumber: 291,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/mainHeader.tsx",
-                                                    lineNumber: 252,
+                                                    lineNumber: 287,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/mainHeader.tsx",
-                                            lineNumber: 239,
+                                            lineNumber: 274,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/mainHeader.tsx",
-                                        lineNumber: 238,
+                                        lineNumber: 273,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -1650,12 +1737,12 @@ function MainNav() {
                             className: "h-10 w-28 object-contain"
                         }, void 0, false, {
                             fileName: "[project]/components/mainHeader.tsx",
-                            lineNumber: 263,
+                            lineNumber: 298,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/mainHeader.tsx",
-                        lineNumber: 262,
+                        lineNumber: 297,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$navigation$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NavigationMenu"], {
@@ -1668,7 +1755,7 @@ function MainNav() {
                                             children: "Product"
                                         }, void 0, false, {
                                             fileName: "[project]/components/mainHeader.tsx",
-                                            lineNumber: 275,
+                                            lineNumber: 310,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$navigation$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NavigationMenuContent"], {
@@ -1686,7 +1773,7 @@ function MainNav() {
                                                                         children: link.title
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                                        lineNumber: 285,
+                                                                        lineNumber: 320,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1694,18 +1781,18 @@ function MainNav() {
                                                                         children: link.description
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                                        lineNumber: 288,
+                                                                        lineNumber: 323,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, link.title, true, {
                                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                                lineNumber: 280,
+                                                                lineNumber: 315,
                                                                 columnNumber: 25
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                        lineNumber: 278,
+                                                        lineNumber: 313,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1716,7 +1803,7 @@ function MainNav() {
                                                                 children: "About Us"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                                lineNumber: 295,
+                                                                lineNumber: 330,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1724,7 +1811,7 @@ function MainNav() {
                                                                 children: "Empowering businesses with cutting-edge web services and solutions."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                                lineNumber: 296,
+                                                                lineNumber: 331,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1736,36 +1823,36 @@ function MainNav() {
                                                                         className: "ml-1 h-4 w-4 rotate-[-90deg]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                                        lineNumber: 305,
+                                                                        lineNumber: 340,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                                lineNumber: 300,
+                                                                lineNumber: 335,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                        lineNumber: 294,
+                                                        lineNumber: 329,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                lineNumber: 277,
+                                                lineNumber: 312,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/mainHeader.tsx",
-                                            lineNumber: 276,
+                                            lineNumber: 311,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/mainHeader.tsx",
-                                    lineNumber: 274,
+                                    lineNumber: 309,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$navigation$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NavigationMenuItem"], {
@@ -1774,7 +1861,7 @@ function MainNav() {
                                             children: "Solutions"
                                         }, void 0, false, {
                                             fileName: "[project]/components/mainHeader.tsx",
-                                            lineNumber: 312,
+                                            lineNumber: 347,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$navigation$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NavigationMenuContent"], {
@@ -1792,7 +1879,7 @@ function MainNav() {
                                                                         children: link.title
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                                        lineNumber: 322,
+                                                                        lineNumber: 357,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1800,18 +1887,18 @@ function MainNav() {
                                                                         children: link.description
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                                        lineNumber: 325,
+                                                                        lineNumber: 360,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, link.title, true, {
                                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                                lineNumber: 317,
+                                                                lineNumber: 352,
                                                                 columnNumber: 25
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                        lineNumber: 315,
+                                                        lineNumber: 350,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1822,7 +1909,7 @@ function MainNav() {
                                                                 children: "About Us"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                                lineNumber: 332,
+                                                                lineNumber: 367,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1830,7 +1917,7 @@ function MainNav() {
                                                                 children: "Empowering businesses with cutting-edge web services and solutions."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                                lineNumber: 333,
+                                                                lineNumber: 368,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1842,36 +1929,36 @@ function MainNav() {
                                                                         className: "ml-1 h-4 w-4 rotate-[-90deg]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                                        lineNumber: 342,
+                                                                        lineNumber: 377,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                                lineNumber: 337,
+                                                                lineNumber: 372,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                        lineNumber: 331,
+                                                        lineNumber: 366,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                lineNumber: 314,
+                                                lineNumber: 349,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/mainHeader.tsx",
-                                            lineNumber: 313,
+                                            lineNumber: 348,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/mainHeader.tsx",
-                                    lineNumber: 311,
+                                    lineNumber: 346,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$navigation$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NavigationMenuItem"], {
@@ -1880,7 +1967,7 @@ function MainNav() {
                                             children: "Resources"
                                         }, void 0, false, {
                                             fileName: "[project]/components/mainHeader.tsx",
-                                            lineNumber: 349,
+                                            lineNumber: 384,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$navigation$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NavigationMenuContent"], {
@@ -1898,7 +1985,7 @@ function MainNav() {
                                                                         children: link.title
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                                        lineNumber: 359,
+                                                                        lineNumber: 394,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1906,18 +1993,18 @@ function MainNav() {
                                                                         children: link.description
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                                        lineNumber: 362,
+                                                                        lineNumber: 397,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, link.title, true, {
                                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                                lineNumber: 354,
+                                                                lineNumber: 389,
                                                                 columnNumber: 25
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                        lineNumber: 352,
+                                                        lineNumber: 387,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1928,7 +2015,7 @@ function MainNav() {
                                                                 children: "About Us"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                                lineNumber: 369,
+                                                                lineNumber: 404,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1936,7 +2023,7 @@ function MainNav() {
                                                                 children: "Empowering businesses with cutting-edge web services and solutions."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                                lineNumber: 370,
+                                                                lineNumber: 405,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1948,36 +2035,36 @@ function MainNav() {
                                                                         className: "ml-1 h-4 w-4 rotate-[-90deg]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                                        lineNumber: 379,
+                                                                        lineNumber: 414,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                                lineNumber: 374,
+                                                                lineNumber: 409,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/mainHeader.tsx",
-                                                        lineNumber: 368,
+                                                        lineNumber: 403,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                lineNumber: 351,
+                                                lineNumber: 386,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/mainHeader.tsx",
-                                            lineNumber: 350,
+                                            lineNumber: 385,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/mainHeader.tsx",
-                                    lineNumber: 348,
+                                    lineNumber: 383,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$navigation$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NavigationMenuItem"], {
@@ -1987,23 +2074,23 @@ function MainNav() {
                                         children: "Pricing"
                                     }, void 0, false, {
                                         fileName: "[project]/components/mainHeader.tsx",
-                                        lineNumber: 386,
+                                        lineNumber: 421,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/mainHeader.tsx",
-                                    lineNumber: 385,
+                                    lineNumber: 420,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/mainHeader.tsx",
-                            lineNumber: 273,
+                            lineNumber: 308,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/mainHeader.tsx",
-                        lineNumber: 272,
+                        lineNumber: 307,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2025,24 +2112,24 @@ function MainNav() {
                                                             children: "🇦🇺"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/mainHeader.tsx",
-                                                            lineNumber: 401,
+                                                            lineNumber: 436,
                                                             columnNumber: 23
                                                         }, this),
                                                         "English"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/mainHeader.tsx",
-                                                    lineNumber: 400,
+                                                    lineNumber: 435,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                lineNumber: 399,
+                                                lineNumber: 434,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/mainHeader.tsx",
-                                            lineNumber: 398,
+                                            lineNumber: 433,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -2055,46 +2142,46 @@ function MainNav() {
                                                             children: "🇦🇺"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/mainHeader.tsx",
-                                                            lineNumber: 409,
+                                                            lineNumber: 444,
                                                             columnNumber: 23
                                                         }, this),
                                                         "English"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/mainHeader.tsx",
-                                                    lineNumber: 408,
+                                                    lineNumber: 443,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/mainHeader.tsx",
-                                                lineNumber: 407,
+                                                lineNumber: 442,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/mainHeader.tsx",
-                                            lineNumber: 406,
+                                            lineNumber: 441,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/mainHeader.tsx",
-                                    lineNumber: 397,
+                                    lineNumber: 432,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/mainHeader.tsx",
-                                lineNumber: 396,
+                                lineNumber: 431,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$BookaCall$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/components/mainHeader.tsx",
-                                lineNumber: 416,
+                                lineNumber: 451,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/mainHeader.tsx",
-                        lineNumber: 395,
+                        lineNumber: 430,
                         columnNumber: 11
                     }, this)
                 ]
