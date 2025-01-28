@@ -1,6 +1,12 @@
+<<<<<<< Updated upstream
 import Link from "next/link"
 import Image from "next/image"
 import { Facebook, Linkedin, Twitter } from 'lucide-react'
+=======
+import Link from "next/link";
+import Image from "next/image";
+import { Facebook, InstagramIcon, Linkedin, Twitter } from 'lucide-react';
+>>>>>>> Stashed changes
 
 export default function Footer() {
   return (
@@ -68,6 +74,7 @@ export default function Footer() {
             <div className="mt-10 flex flex-col justify-between gap-4 border-t pt-6 sm:flex-row sm:items-center">
               <p className="text-sm text-gray-500">© 2025 Netwitx Inc.</p>
               <div className="flex gap-4">
+<<<<<<< Updated upstream
                 <Link href="#" className="text-gray-500 hover:text-blue-600">
                   <Facebook className="size-5" />
                   <span className="sr-only">Facebook</span>
@@ -78,6 +85,22 @@ export default function Footer() {
                 </Link>
                 <Link href="#" className="text-gray-500 hover:text-pink-600">
                   <Linkedin className="size-5" />
+=======
+                <Link href="https://www.facebook.com/people/Netwitx/61571982599231/" target="_blank" className="text-gray-500 hover:text-blue-600">
+                  <Facebook className="h-5 w-5" />
+                  <span className="sr-only">Facebook</span>
+                </Link>
+                <Link href="https://www.instagram.com/netwitx_/" target="_blank" className="text-gray-500 hover:text-red-500">
+                  <InstagramIcon className="h-5 w-5" />
+                  <span className="sr-only">Instagram</span>
+                </Link>
+                <Link href="https://x.com/netwitx" target="_blank" className="text-gray-500 hover:text-black">
+                  <Twitter className="h-5 w-5" />
+                  <span className="sr-only">Twitter</span>
+                </Link>
+                <Link href="#" target="_blank" className="text-gray-500 hover:text-blue-600">
+                  <Linkedin className="h-5 w-5" />
+>>>>>>> Stashed changes
                   <span className="sr-only">LinkedIn</span>
                 </Link>
               </div>
