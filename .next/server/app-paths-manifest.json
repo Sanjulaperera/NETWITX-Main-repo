@@ -1,9 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/(main)/website/design/page": "app/(main)/website/design/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/about/us/page": "app/about/us/page.js",
-  "/(main)/website-creator/page": "app/(main)/website-creator/page.js",
-  "/web-hosting/page": "app/web-hosting/page.js"
-}
