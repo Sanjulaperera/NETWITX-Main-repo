@@ -571,10 +571,10 @@ const PricingPage: React.FC = () => {
                 </AccordionItem>
               </Accordion>
               <div className="mt-12 text-center">
-              <Button className="rounded-lg bg-blue-600 text-white hover:bg-blue-500 px-8 py-3 text-lg font-semibold transition-colors duration-300">
-                Got a Question? Contact Us
-              </Button>
-            </div>
+                <Button className="rounded-lg bg-blue-600 text-white hover:bg-blue-500 px-8 py-3 text-lg font-semibold transition-colors duration-300">
+                  Got a Question? Contact Us
+                </Button>
+              </div>
             </div>
           </div>
         </main>

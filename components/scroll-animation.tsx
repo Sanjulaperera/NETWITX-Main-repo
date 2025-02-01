@@ -2,9 +2,9 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, ReactNode } from "react";
-import WebsiteTemplatesSection from "@/components/WebsitesTemplatesSection";
 import Hero from "@/components/Hero-02";
 import { FeaturesSectionDemo } from "./feature-section";
+import WorkShowcase from "./WorkShowcase";
 
 interface SectionProps {
   children: ReactNode;
@@ -47,7 +47,7 @@ export default function ScrollAnimation() {
           <Hero />
         </AnimatedSection>
         <AnimatedSection backgroundColor="">
-          <WebsiteTemplatesSection />
+          <WorkShowcase />
         </AnimatedSection>
         <AnimatedSection backgroundColor="">
           <section className="min-h-screen bg-white rounded-md sm:rounded-t-[2rem] md:rounded-t-[5rem]">
