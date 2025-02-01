@@ -54,7 +54,7 @@ export default function Footer() {
                 <h3 className="font-medium">Resources</h3>
                 <nav className="flex flex-col space-y-2">
                   <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="/blog">Netwitx Blog</Link>
-                  <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="/support">Help Center</Link>
+                  <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="/work">Our Work</Link>
                   <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="/about/contact">Contact Us</Link>
                   <Link className="text-gray-500 hover:text-gray-900 hover:underline" href="/about/us">About Us</Link>
                 </nav>

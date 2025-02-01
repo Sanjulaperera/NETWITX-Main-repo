@@ -115,9 +115,9 @@ const resourcesLinks = [
     description: "Read the latest articles on web development.",
   },
   {
-    title: "Help Center",
-    href: "/support",
-    description: "Find answers to common questions.",
+    title: "Our Work",
+    href: "/work",
+    description: "Discover the projects we've worked on.",
   },
   {
     title: "Contact Us",

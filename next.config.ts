@@ -11,7 +11,12 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ["uploadthing.com"], // Add Uploadthing domain here
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'uploadthing.com',
+      },
+    ], // Add Uploadthing domain here
   }
 };
 
