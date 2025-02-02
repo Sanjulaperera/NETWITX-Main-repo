@@ -1,2 +1,4 @@
 NETWITX.com 
-Contact: sanjula.perera@netwitx.com
+ ```bash
+Contact: contact@netwitx.com
+   ```
