@@ -4,9 +4,9 @@ import Image from "next/image";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import { MainNav } from "@/components/mainHeader";
-import SparklesText from "@/components/ui/sparkles-text";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import { Header80 } from "@/components/about-hero";
 
 export default function AboutPage() {
   const { ref: overviewRef, inView: overviewInView } = useInView({
@@ -24,22 +24,8 @@ export default function AboutPage() {
       <MainNav />
       <div className="min-h-screen">
         {/* Hero Section */}
-        <section className="h-screen flex items-center justify-center bg-white">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-center"
-          >
-            <motion.h1
-              className="text-5xl md:text-7xl tracking-tight text-gray-900"
-              initial={{ scale: 0.9 }}
-              animate={{ scale: 1 }}
-              transition={{ delay: 0.2, duration: 0.5 }}
-            >
-              <SparklesText text="Where Innovation meets Imagination" />
-            </motion.h1>
-          </motion.div>
+        <section className="">
+          <Header80 />
         </section>
 
         {/* Company Overview Section */}
@@ -123,9 +109,7 @@ export default function AboutPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <div className="text-4xl font-bold text-primary mb-2">
-                {statsInView && (
-                  <CountUp end={2023} duration={2.5} useEasing={false} />
-                )}
+                <p>2023</p>
               </div>
               <div className="text-xl text-gray-600">Founded</div>
             </motion.div>
